@@ -3,10 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buscador Bíblico | ¿Qué sentís hoy?</title>
-
+    <title>Buscador Bíblico | ¿Cómo te sentís hoy?</title>
     <link rel="stylesheet" href="estilos.css" />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
       rel="stylesheet"
@@ -19,18 +17,32 @@
     </header>
 
     <nav id="menu-lateral" class="oculto">
-      <h2>¿Qué sentís hoy</h2>
-      <div id="contenedor-etoquetas" class="lista-etiquetas"></div>
+      <button id="btn-cerrar-menu" class="btn-cerrar">&times;</button>
+
+      <h2>Atajos Emocionales</h2>
+
+      <div id="contenedor-etiquetas" class="lista-etiquetas"></div>
     </nav>
 
     <main>
-      <h1 id="titulo-resultados">Selecciona una emoción en el menú</h1>
-
-      <section id="contenedor-resultados" class="grid-resultados">
-        <p class="mensaje-bienvenida">
-          Estamos listos para escucharte. Abre el menú (☰) para empezar.
+      <section class="seccion-buscador">
+        <h1 class="titulo-principal">¿Cómo te sentís hoy?</h1>
+        <p class="subtitulo">
+          Escribe una emoción (ej: ansiedad, miedo, paz) o usa el menú lateral.
         </p>
+
+        <div class="caja-busqueda">
+          <input
+            type="text"
+            id="input-busqueda"
+            placeholder="Me siento..."
+            autocomplete="off"
+          />
+          <button id="btn-buscar" class="btn-primario">Buscar</button>
+        </div>
       </section>
+
+      <section id="contenedor-resultados" class="grid-resultados"></section>
     </main>
 
     <script src="app.js"></script>

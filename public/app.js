@@ -1,37 +1,42 @@
-// Seleccion de elemento HTML
+// Seleccion de elementos HTML
 const btnMenu = document.getElementById("btn-menu");
+const btnCerrarMenu = document.getElementById("btn-cerrar-menu");
 const menuLateral = document.getElementById("menu-lateral");
 const contenedorEtiquetas = document.getElementById("contenedor-etiquetas");
 const contenedorResultados = document.getElementById("contenedor-resultados");
-const tituloResultados = document.getElementById("titulo-resultados");
 
-// Menu hamburguesa (Abrir y cerrar el menú lateral)
+// Gancho del buscador
+const inputBusqueda = document.getElementById("input-busqueda");
+const btnBuscar = document.getElementById("btn-buscar");
+
+// Abrir y cerrar el menu
 btnMenu.addEventListener("click", () => {
-  menuLateral.classList.toggle("activo");
+  menuLateral.classList.add("activo");
 });
 
-// Carga de meni (Conectando con API)
+btnCerrarMenu.addEventListener("click", () => {
+  menuLateral.classList.remove("activo");
+});
+
+// Carga de menu dinamico
 async function cargarEtiquetas() {
   try {
     const respuesta = await fetch("/api/etiquetas");
     const etiquetas = await respuesta.json();
 
-    // Limpieza de menú
     contenedorEtiquetas.innerHTML = "";
 
-    // Por cada emocion, se crea un boton en el menu lateral
     etiquetas.forEach((etiqueta) => {
       const boton = document.createElement("button");
       boton.classList.add("btn-etiqueta");
-      boton.textContent = etiqueta.nombre;
 
-      // Dando la orden al apretar el click
+      boton.textContent = `# ${etiqueta.nombre}`;
+
       boton.addEventListener("click", () => {
         buscarVersiculos(etiqueta.nombre);
         menuLateral.classList.remove("activo");
       });
 
-      // Agregar boton al menu visual
       contenedorEtiquetas.appendChild(boton);
     });
   } catch (error) {
@@ -39,10 +44,8 @@ async function cargarEtiquetas() {
   }
 }
 
-// Buscar versiculos
+// Busqueda de versiculos
 async function buscarVersiculos(emocion) {
-  // Actualizar pantalla a la hora de buscar
-  tituloResultados.textContent = `Versículos sobre: ${emocion}`;
   contenedorResultados.innerHTML =
     '<p class="mensaje-bienvenida">Buscando en la Biblia...</p>';
 
@@ -52,18 +55,15 @@ async function buscarVersiculos(emocion) {
 
     contenedorResultados.innerHTML = "";
 
-    // Si el Backend devolvio un 404 (No se encontro nada)
     if (!respuesta.ok) {
       contenedorResultados.innerHTML = `<p class="mensaje-bienvenida">${datos.mensaje}</p>`;
       return;
     }
 
-    // Dibujar tarjetas
     datos.forEach((versiculo) => {
       const tarjeta = document.createElement("div");
       tarjeta.classList.add("tarjeta-versiculo");
 
-      // Inyectar el texto exacto del versículo
       tarjeta.innerHTML = `
                 <span class="cita-biblica">${versiculo.libro} ${versiculo.capitulo}:${versiculo.numero_versiculo}</span>
                 <p class="texto-versiculo">"${versiculo.texto}"</p>
@@ -78,5 +78,32 @@ async function buscarVersiculos(emocion) {
   }
 }
 
-// Encendido inicial de la app
+// 5. ENCENDIDO INICIAL
 cargarEtiquetas();
+
+// Función que lee lo que el usuario escribió y lo prepara
+function procesarBusqueda() {
+  let emocionEscrita = inputBusqueda.value.trim();
+
+  if (emocionEscrita === "") {
+    return;
+  }
+
+  let emocionCorregida =
+    emocionEscrita.charAt(0).toUpperCase() +
+    emocionEscrita.slice(1).toLowerCase();
+
+  buscarVersiculos(emocionCorregida);
+
+  inputBusqueda.value = "";
+}
+
+// Escuchar cuando el usuario hace CLIC en el botón "Buscar"
+btnBuscar.addEventListener("click", procesarBusqueda);
+
+// Escuchar cuando el usuario presiona la tecla ENTER en su teclado
+inputBusqueda.addEventListener("keypress", (evento) => {
+  if (evento.key === "Enter") {
+    procesarBusqueda();
+  }
+});

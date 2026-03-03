@@ -57,13 +57,14 @@ header {
 #menu-lateral {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0; /* Cambiamos left por right */
+  left: auto; /* Anulamos el left anterior si lo tenías */
   width: 250px;
   height: 100vh;
   background-color: var(--fondo-tarjeta);
   padding: 2rem 1.5rem;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
-  transform: translateX(-100%);
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5); /* Sombra hacia la izquierda */
+  transform: translateX(100%); /* Lo escondemos hacia la derecha (positivo) */
   transition: transform 0.3s ease-in-out;
   z-index: 200;
 }
@@ -72,78 +73,108 @@ header {
   transform: translateX(0);
 }
 
-#menu-lateral h2 {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-  color: var(--texto-secundario);
+/* --- Estilo de buscador tipo IA --- */
+.seccion-buscador {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
-.lista-etiquetas {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-/* Estilo para los botones */
-.btn-etiqueta {
-  background-color: var(--fondo-principal);
+.titulo-principal {
+  font-size: 2.5rem;
+  font-weight: 800;
   color: var(--texto-claro);
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  color: var(--texto-secundario);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.caja-busqueda {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+#input-busqueda {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
   border: 1px solid var(--color-borde);
-  padding: 0.8rem 1rem;
-  border-radius: 8px;
+  background-color: var(--fondo-tarjeta);
+  color: var(--texto-claro);
+  outline: none;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+#input-busqueda:focus {
+  border-color: var(--color-acento);
+  box-shadow: 0 0 10px rgba(187, 134, 252, 0.2);
+}
+
+.btn-primario {
+  background-color: var(--color-acento);
+  color: #000000;
+  border: none;
+  padding: 0 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    filter 0.2s;
+}
+
+.btn-primario:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* Boton para cerrar */
+.btn-cerrar {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: var(--texto-secundario);
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: color 0.2s;
+  line-height: 1;
+}
+
+.btn-cerrar:hover {
+  color: var(--color-acento);
+}
+
+/* Boton etiquetas */
+.btn-etiqueta {
+  background: transparent;
+  color: var(--texto-claro);
+  border: none;
+  border-bottom: 1px solid var(--color-borde);
+  padding: 0.6rem 0;
   text-align: left;
   font-size: 1rem;
+  font-weight: 400;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.3s ease;
+  display: block;
+  width: 100%;
 }
 
 .btn-etiqueta:hover {
-  border-color: var(--color-acento);
   color: var(--color-acento);
-}
-
-/* Contenido principal (El Main) */
-main {
-  padding: 2rem 5%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#titulo-resultados {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  color: var(--color-acento);
-}
-
-/* Tarjetas (Donde vivirán los versículos) */
-.grid-resultados {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
-/* Diseño de la Tarjeta del Versículo */
-.tarjeta-versiculo {
-  background-color: var(--fondo-tarjeta);
-  padding: 1.5rem;
-  border-radius: 12px;
-  border: 1px solid var(--color-borde);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.cita-biblica {
-  font-weight: 800;
-  color: var(--color-acento);
-  margin-bottom: 0.5rem;
-  display: block;
-}
-
-.texto-versiculo {
-  font-size: 1.1rem;
-  color: var(--texto-claro);
-}
-
-.mensaje-bienvenida {
-  color: var(--texto-secundario);
-  font-style: italic;
+  transform: translateX(10px);
+  border-bottom-color: var(--color-acento);
 }
