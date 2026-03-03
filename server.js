@@ -11,6 +11,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+// Servir archivos estáticos
+app.use(express.static("public"));
+
 // 4. RUTAS BASE
 app.get("/", (req, res) => {
   res.json({
