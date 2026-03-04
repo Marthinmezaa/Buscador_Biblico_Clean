@@ -1,17 +1,18 @@
 [
   {
-    "libro": "1 Pedro",
-    "capitulo": 5,
-    "versiculo": "7",
-    "texto": "Depositen en él toda ansiedad, porque él cuida de ustedes.",
-    "emocion": "Ansiedad"
+    "libro": "Filipenses",
+    "capitulo": 4,
+    "versiculo": "6-7",
+    "texto": "No se preocupen por nada; más bien, en toda ocasión, con oración y ruego, presenten sus peticiones a Dios y denle gracias. Y la paz de Dios, que sobrepasa todo entendimiento, cuidará sus corazones y sus pensamientos en Cristo Jesús.",
+    "emocion": "Ansiedad",
+    "categoria": "Negativos"
   },
-
   {
-    "libro": "Isaías",
-    "capitulo": 41,
-    "versiculo": "10",
-    "texto": "Así que no temas, porque yo estoy contigo; no te angusties, porque yo soy tu Dios. Te fortaleceré y te ayudaré; te sostendré con la diestra de mi justicia.",
-    "emocion": "Ansiedad"
+    "libro": "Juan",
+    "capitulo": 14,
+    "versiculo": "27",
+    "texto": "La paz les dejo; mi paz les doy. Yo no se la doy a ustedes como la da el mundo. No se angustien ni se acobarden.",
+    "emocion": "Paz",
+    "categoria": "Positivos"
   }
 ]

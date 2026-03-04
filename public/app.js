@@ -1,24 +1,31 @@
-// 1. Seleccion de elementos HTML
+/**
+ * BUSCADOR BÍBLICO - LÓGICA DE CLIENTE (FRONTEND)
+ * Maneja la interfaz de usuario, eventos del DOM y peticiones a la API.
+ */
+
+// ==========================================
+// 1. SELECCIÓN DE ELEMENTOS DEL DOM
+// ==========================================
 const btnMenu = document.getElementById("btn-menu");
 const btnCerrarMenu = document.getElementById("btn-cerrar-menu");
 const menuLateral = document.getElementById("menu-lateral");
 const contenedorEtiquetas = document.getElementById("contenedor-etiquetas");
 const contenedorResultados = document.getElementById("contenedor-resultados");
 
-// Gancho del buscador
 const inputBusqueda = document.getElementById("input-busqueda");
 const btnBuscar = document.getElementById("btn-buscar");
 
-// 2. Abrir y cerrar el menu
-btnMenu.addEventListener("click", () => {
-  menuLateral.classList.add("activo");
-});
+// ==========================================
+// 2. CONTROL DEL MENÚ LATERAL
+// ==========================================
+btnMenu.addEventListener("click", () => menuLateral.classList.add("activo"));
+btnCerrarMenu.addEventListener("click", () =>
+  menuLateral.classList.remove("activo"),
+);
 
-btnCerrarMenu.addEventListener("click", () => {
-  menuLateral.classList.remove("activo");
-});
-
-// 3.Carga de menu dinamico
+// ==========================================
+// 3. CARGA DE MENÚ DINÁMICO (Por Categorías)
+// ==========================================
 async function cargarEtiquetas() {
   try {
     const respuesta = await fetch("/api/etiquetas");
@@ -26,29 +33,47 @@ async function cargarEtiquetas() {
 
     contenedorEtiquetas.innerHTML = "";
 
-    etiquetas.forEach((etiqueta) => {
-      const boton = document.createElement("button");
-      boton.classList.add("btn-etiqueta");
+    // Orden de renderizado de las categorías
+    const ordenCategorias = ["Positivos", "Neutros", "Negativos"];
 
-      boton.textContent = `# ${etiqueta.nombre}`;
+    ordenCategorias.forEach((nombreCat) => {
+      // Filtramos las etiquetas correspondientes a la categoría actual
+      const etiquetasDeEstaCat = etiquetas.filter(
+        (e) => e.categoria === nombreCat,
+      );
 
-      boton.addEventListener("click", () => {
-        buscarVersiculos(etiqueta.nombre);
-        menuLateral.classList.remove("activo");
-      });
+      if (etiquetasDeEstaCat.length > 0) {
+        // Renderizar título de categoría
+        const titulo = document.createElement("h3");
+        titulo.textContent = `${nombreCat}:`;
+        titulo.classList.add("titulo-categoria");
+        contenedorEtiquetas.appendChild(titulo);
 
-      contenedorEtiquetas.appendChild(boton);
+        // Renderizar botones de etiquetas
+        etiquetasDeEstaCat.forEach((etiqueta) => {
+          const boton = document.createElement("button");
+          boton.classList.add("btn-etiqueta");
+          boton.textContent = `# ${etiqueta.nombre}`;
+
+          boton.addEventListener("click", () => {
+            buscarVersiculos(etiqueta.nombre);
+            menuLateral.classList.remove("activo");
+          });
+
+          contenedorEtiquetas.appendChild(boton);
+        });
+      }
     });
   } catch (error) {
-    console.error("Error al cargar el menú:", error);
+    console.error("Error al cargar el menú dinámico:", error);
   }
 }
 
-// 4. Busqueda de versiculos
+// ==========================================
+// 4. BÚSQUEDA Y RENDERIZADO DE VERSÍCULOS
+// ==========================================
 async function buscarVersiculos(emocion) {
-  contenedorResultados.innerHTML = "";
-
-  // Mostrar el mensaje de carga
+  // Estado de carga visual
   contenedorResultados.innerHTML =
     '<p class="mensaje-bienvenida">Buscando en la Biblia...</p>';
 
@@ -58,11 +83,13 @@ async function buscarVersiculos(emocion) {
 
     contenedorResultados.innerHTML = "";
 
+    // Manejo de errores desde el servidor (ej: emoción no encontrada)
     if (!respuesta.ok) {
       contenedorResultados.innerHTML = `<p class="mensaje-bienvenida">${datos.mensaje}</p>`;
       return;
     }
 
+    // Renderizado de tarjetas de versículos
     datos.forEach((versiculo) => {
       const tarjeta = document.createElement("div");
       tarjeta.classList.add("tarjeta-versiculo");
@@ -75,21 +102,19 @@ async function buscarVersiculos(emocion) {
       contenedorResultados.appendChild(tarjeta);
     });
   } catch (error) {
-    console.error("Error al buscar:", error);
+    console.error("Error en la petición de búsqueda:", error);
     contenedorResultados.innerHTML =
-      '<p class="mensaje-bienvenida">Hubo un problema de conexión.</p>';
+      '<p class="mensaje-bienvenida">Hubo un problema de conexión con el servidor.</p>';
   }
 }
 
-// 5. ENCENDIDO INICIAL
-cargarEtiquetas();
-
-// 6. Logica del buscador central estilo IA
+// ==========================================
+// 5. MOTOR DE BÚSQUEDA TIPO IA (Traductor)
+// ==========================================
 function interpretarEmocion(frase) {
-  // Pasar a minúsculas para facilitar la comparación
   let texto = frase.toLowerCase();
 
-  // Filtros de inteligencia artificial casera
+  // Diccionario de sinónimos para mejorar la experiencia de usuario (UX)
   if (
     texto.includes("ansios") ||
     texto.includes("ansiedad") ||
@@ -131,26 +156,27 @@ function interpretarEmocion(frase) {
   )
     return "Enojo";
 
-  // Si no encuentra coincidencia en el diccionario se devuelve la primera palabra con mayúscula inicial por defecto
+  // Fallback: Capitalizar la primera letra
   return texto.charAt(0).toUpperCase() + texto.slice(1);
 }
 
 function procesarBusqueda() {
   let fraseEscrita = inputBusqueda.value.trim();
-
   if (fraseEscrita === "") return;
 
-  // Pasamos la frase del usuario por nuestro "cerebro" traductor
   let emocionOficial = interpretarEmocion(fraseEscrita);
-
   buscarVersiculos(emocionOficial);
-  inputBusqueda.value = ""; // Limpiamos la barra
+
+  inputBusqueda.value = "";
 }
 
+// Listeners del buscador central
 btnBuscar.addEventListener("click", procesarBusqueda);
-
 inputBusqueda.addEventListener("keypress", (evento) => {
-  if (evento.key === "Enter") {
-    procesarBusqueda();
-  }
+  if (evento.key === "Enter") procesarBusqueda();
 });
+
+// ==========================================
+// 6. INICIALIZACIÓN DE LA APLICACIÓN
+// ==========================================
+cargarEtiquetas();

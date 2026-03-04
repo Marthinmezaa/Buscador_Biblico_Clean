@@ -1,4 +1,11 @@
-/* 1. Variables */
+/**
+ * HOJA DE ESTILOS PRINCIPAL - BUSCADOR BÍBLICO
+ * Diseño con enfoque Mobile First y paleta de colores Dark Mode.
+ */
+
+/* ==========================================
+   1. VARIABLES Y RESETEO
+   ========================================== */
 :root {
   --fondo-principal: #121212;
   --fondo-tarjeta: #1e1e1e;
@@ -8,7 +15,6 @@
   --color-borde: #333333;
 }
 
-/* Reseteo */
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +28,9 @@ body {
   line-height: 1.6;
 }
 
-/* Cabecera (Header) */
+/* ==========================================
+   2. CABECERA (HEADER)
+   ========================================== */
 header {
   display: flex;
   justify-content: space-between;
@@ -53,18 +61,19 @@ header {
   color: var(--color-acento);
 }
 
-/* Menu lateral (Panel que se desliza) */
+/* ==========================================
+   3. MENÚ LATERAL (OFF-CANVAS)
+   ========================================== */
 #menu-lateral {
   position: fixed;
   top: 0;
-  right: 0; /* Cambiamos left por right */
-  left: auto; /* Anulamos el left anterior si lo tenías */
+  right: 0;
   width: 250px;
   height: 100vh;
   background-color: var(--fondo-tarjeta);
   padding: 2rem 1.5rem;
-  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5); /* Sombra hacia la izquierda */
-  transform: translateX(100%); /* Lo escondemos hacia la derecha (positivo) */
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
   z-index: 200;
 }
@@ -73,7 +82,56 @@ header {
   transform: translateX(0);
 }
 
-/* --- Estilo de buscador tipo IA --- */
+.btn-cerrar {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: var(--texto-secundario);
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: color 0.2s;
+  line-height: 1;
+}
+
+.btn-cerrar:hover {
+  color: var(--color-acento);
+}
+
+.titulo-categoria {
+  color: var(--color-acento);
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-etiqueta {
+  background: transparent;
+  color: var(--texto-claro);
+  border: none;
+  border-bottom: 1px solid var(--color-borde);
+  padding: 0.6rem 0;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+.btn-etiqueta:hover {
+  color: var(--color-acento);
+  transform: translateX(10px);
+  border-bottom-color: var(--color-acento);
+}
+
+/* ==========================================
+   4. SECCIÓN BUSCADOR (HERO)
+   ========================================== */
 .seccion-buscador {
   text-align: center;
   margin-top: 3rem;
@@ -140,47 +198,9 @@ header {
   filter: brightness(1.1);
 }
 
-/* Boton para cerrar */
-.btn-cerrar {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  background: none;
-  border: none;
-  color: var(--texto-secundario);
-  font-size: 2.5rem;
-  cursor: pointer;
-  transition: color 0.2s;
-  line-height: 1;
-}
-
-.btn-cerrar:hover {
-  color: var(--color-acento);
-}
-
-/* Boton etiquetas */
-.btn-etiqueta {
-  background: transparent;
-  color: var(--texto-claro);
-  border: none;
-  border-bottom: 1px solid var(--color-borde);
-  padding: 0.6rem 0;
-  text-align: left;
-  font-size: 1rem;
-  font-weight: 400;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: block;
-  width: 100%;
-}
-
-.btn-etiqueta:hover {
-  color: var(--color-acento);
-  transform: translateX(10px);
-  border-bottom-color: var(--color-acento);
-}
-
-/* Contener de resultados estilo IA */
+/* ==========================================
+   5. CONTENEDOR DE RESULTADOS
+   ========================================== */
 .grid-resultados {
   display: flex;
   flex-direction: column;
@@ -191,7 +211,6 @@ header {
   margin-top: 2rem;
 }
 
-/* Respuesta (Versiculo) */
 .tarjeta-versiculo {
   background-color: var(--fondo-tarjeta);
   padding: 2rem;
@@ -225,14 +244,15 @@ header {
   font-style: italic;
 }
 
-/* El mensaje de 'Buscando..' o error 404 */
 .mensaje-bienvenida {
   color: var(--texto-secundario);
   font-size: 1.1rem;
   text-align: center;
 }
 
-/* Adaptacion para celular */
+/* ==========================================
+   6. DISEÑO RESPONSIVO (MOBILE FIRST)
+   ========================================== */
 @media (max-width: 480px) {
   .titulo-principal {
     font-size: 1.8rem;
