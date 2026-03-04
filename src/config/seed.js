@@ -1,36 +1,42 @@
+/**
+ * SCRIPT DE SIEMBRA (Seed Data)
+ * Utilidad para poblar la base de datos con información inicial de prueba.
+ * Útil para configurar entornos de desarrollo desde cero.
+ */
+
 const db = require("./db");
 
-console.log("Iniciando la siembra de datos...");
+console.log("Iniciando la siembra de datos de prueba...");
 
-// Ejecucion paso a paso
+// Ejecución secuencial para evitar conflictos de llaves foráneas
 db.serialize(() => {
-  // 1. Limpieza de tablas
+  // 1. Limpieza total de tablas (El orden importa para no romper relaciones)
   db.run("DELETE FROM versiculo_etiqueta");
   db.run("DELETE FROM etiquetas");
   db.run("DELETE FROM versiculos");
 
-  //2. Insercion de etiquetas
-  db.run(`INSERT INTO etiquetas (id, nombre) VALUES
-        (1, 'Miedo'),
-        (2, 'Ansiedad'),
-        (3, 'Paz'),
-        (4, 'Fuerza'),
-        (5, 'Esperanza')`);
+  // 2. Inserción de catálogo de etiquetas (Incluye la nueva columna 'categoria')
+  db.run(`INSERT INTO etiquetas (id, nombre, categoria) VALUES
+        (1, 'Miedo', 'Negativos'),
+        (2, 'Ansiedad', 'Negativos'),
+        (3, 'Paz', 'Positivos'),
+        (4, 'Fuerza', 'Positivos'),
+        (5, 'Esperanza', 'Positivos')`);
 
-  // 3. Insercion de versiculos
+  // 3. Inserción de catálogo de versículos principales
   db.run(`INSERT INTO versiculos (id, libro, capitulo, numero_versiculo, texto) VALUES 
-        (101, 'Josué', 1, 9, 'Ya te lo he ordenado: ¡Sé fuerte y valiente! ¡No tengas miedo ni te desanimes! Porque el Señor tu Dios te acompañará dondequiera que vayas.'),
-        (102, 'Filipenses', 4, 6, 'No se inquieten por nada; más bien, en toda ocasión, con oración y ruego, presenten sus peticiones a Dios y denle gracias.'),
-        (103, 'Jeremías', 29, 11, 'Porque yo sé muy bien los planes que tengo para ustedes —afirma el Señor—, planes de bienestar y no de calamidad, a fin de darles un futuro y una esperanza.')`);
+        (101, 'Josué', 1, '9', 'Ya te lo he ordenado: ¡Sé fuerte y valiente! ¡No tengas miedo ni te desanimes!...'),
+        (102, 'Filipenses', 4, '6', 'No se inquieten por nada; más bien, en toda ocasión, con oración...'),
+        (103, 'Jeremías', 29, '11', 'Porque yo sé muy bien los planes que tengo para ustedes —afirma el Señor—...')`);
 
-  // 4. Conectar versiculos con etiquetas
+  // 4. Creación de relaciones (Vincular versículos con sus respectivas emociones)
   db.run(`INSERT INTO versiculo_etiqueta (versiculo_id, etiqueta_id) VALUES 
         (101, 1), (101, 4),
         (102, 2), (102, 3),
         (103, 5), (103, 3)`);
 
-  console.log("Base de datos poblada con exito!!.");
+  console.log("¡Base de datos poblada con éxito y lista para pruebas!");
 });
 
-// Cerrar la conexion
+// Cierre seguro de la conexión
 db.close();

@@ -82,6 +82,10 @@ header {
   transform: translateX(0);
 }
 
+#contenedor-etiquetas {
+  margin-top: 3rem;
+}
+
 .btn-cerrar {
   position: absolute;
   top: 15px;
@@ -99,34 +103,79 @@ header {
   color: var(--color-acento);
 }
 
-.titulo-categoria {
+/* ==========================================
+   ESTILOS DE MENÚ ACORDEÓN
+   ========================================== */
+.btn-acordeon-principal {
+  background-color: transparent;
   color: var(--color-acento);
+  border: 2px solid var(--color-acento);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.btn-acordeon-principal:hover,
+.btn-acordeon-principal.activo {
+  background-color: var(--color-acento);
+  color: #000;
+}
+
+.btn-acordeon-secundario {
+  background-color: transparent;
+  color: var(--texto-claro);
+  border: none;
+  border-bottom: 1px solid var(--color-borde);
+  padding: 0.8rem 1rem;
+  width: 100%;
+  text-align: left;
   font-size: 1rem;
-  margin-top: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.btn-acordeon-secundario:hover,
+.btn-acordeon-secundario.activo {
+  color: var(--color-acento);
+}
+
+.panel-oculto {
+  display: none; /* Se oculta por defecto hasta que JS lo cambia a block */
+  padding-left: 1rem; /* Sangría para que se note que está adentro */
   margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+}
+
+.panel-etiquetas {
+  padding-left: 2rem; /* Doble sangría para los hashtags finales */
+  border-left: 1px solid var(--color-borde);
+  margin-left: 1rem;
 }
 
 .btn-etiqueta {
   background: transparent;
-  color: var(--texto-claro);
+  color: var(--texto-secundario);
   border: none;
-  border-bottom: 1px solid var(--color-borde);
-  padding: 0.6rem 0;
+  padding: 0.5rem 0;
   text-align: left;
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 0.95rem;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   display: block;
   width: 100%;
 }
 
 .btn-etiqueta:hover {
   color: var(--color-acento);
-  transform: translateX(10px);
-  border-bottom-color: var(--color-acento);
+  transform: translateX(5px);
 }
 
 /* ==========================================

@@ -24,7 +24,7 @@ btnCerrarMenu.addEventListener("click", () =>
 );
 
 // ==========================================
-// 3. CARGA DE MENÚ DINÁMICO (Por Categorías)
+// 3. CARGA DE MENÚ DINÁMICO (Acordeón Anidado)
 // ==========================================
 async function cargarEtiquetas() {
   try {
@@ -33,23 +33,52 @@ async function cargarEtiquetas() {
 
     contenedorEtiquetas.innerHTML = "";
 
-    // Orden de renderizado de las categorías
+    // --- NIVEL 1: Botón Principal "Atajos Emocionales" ---
+    const btnAtajos = document.createElement("button");
+    btnAtajos.textContent = "Atajos Emocionales ▾";
+    btnAtajos.classList.add("btn-acordeon-principal");
+    contenedorEtiquetas.appendChild(btnAtajos);
+
+    // Contenedor que guardará las categorías (Oculto por defecto)
+    const panelCategorias = document.createElement("div");
+    panelCategorias.classList.add("panel-oculto");
+    contenedorEtiquetas.appendChild(panelCategorias);
+
+    // Lógica para abrir/cerrar "Atajos Emocionales"
+    btnAtajos.addEventListener("click", () => {
+      btnAtajos.classList.toggle("activo");
+      panelCategorias.style.display =
+        panelCategorias.style.display === "block" ? "none" : "block";
+    });
+
+    // --- NIVEL 2: Las Categorías (Positivos, Neutros, Negativos) ---
     const ordenCategorias = ["Positivos", "Neutros", "Negativos"];
 
     ordenCategorias.forEach((nombreCat) => {
-      // Filtramos las etiquetas correspondientes a la categoría actual
       const etiquetasDeEstaCat = etiquetas.filter(
         (e) => e.categoria === nombreCat,
       );
 
       if (etiquetasDeEstaCat.length > 0) {
-        // Renderizar título de categoría
-        const titulo = document.createElement("h3");
-        titulo.textContent = `${nombreCat}:`;
-        titulo.classList.add("titulo-categoria");
-        contenedorEtiquetas.appendChild(titulo);
+        // Botón de la Categoría
+        const btnCategoria = document.createElement("button");
+        btnCategoria.textContent = `${nombreCat} ▾`;
+        btnCategoria.classList.add("btn-acordeon-secundario");
+        panelCategorias.appendChild(btnCategoria);
 
-        // Renderizar botones de etiquetas
+        // Contenedor de las etiquetas finales (Oculto por defecto)
+        const panelEtiquetas = document.createElement("div");
+        panelEtiquetas.classList.add("panel-oculto", "panel-etiquetas");
+        panelCategorias.appendChild(panelEtiquetas);
+
+        // Lógica para abrir/cerrar la Categoría
+        btnCategoria.addEventListener("click", () => {
+          btnCategoria.classList.toggle("activo");
+          panelEtiquetas.style.display =
+            panelEtiquetas.style.display === "block" ? "none" : "block";
+        });
+
+        // --- NIVEL 3: Los hashtags clickeables ---
         etiquetasDeEstaCat.forEach((etiqueta) => {
           const boton = document.createElement("button");
           boton.classList.add("btn-etiqueta");
@@ -57,10 +86,10 @@ async function cargarEtiquetas() {
 
           boton.addEventListener("click", () => {
             buscarVersiculos(etiqueta.nombre);
-            menuLateral.classList.remove("activo");
+            menuLateral.classList.remove("activo"); // Cierra el menú al buscar
           });
 
-          contenedorEtiquetas.appendChild(boton);
+          panelEtiquetas.appendChild(boton);
         });
       }
     });
