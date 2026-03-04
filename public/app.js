@@ -1,4 +1,4 @@
-// Seleccion de elementos HTML
+// 1. Seleccion de elementos HTML
 const btnMenu = document.getElementById("btn-menu");
 const btnCerrarMenu = document.getElementById("btn-cerrar-menu");
 const menuLateral = document.getElementById("menu-lateral");
@@ -9,7 +9,7 @@ const contenedorResultados = document.getElementById("contenedor-resultados");
 const inputBusqueda = document.getElementById("input-busqueda");
 const btnBuscar = document.getElementById("btn-buscar");
 
-// Abrir y cerrar el menu
+// 2. Abrir y cerrar el menu
 btnMenu.addEventListener("click", () => {
   menuLateral.classList.add("activo");
 });
@@ -18,7 +18,7 @@ btnCerrarMenu.addEventListener("click", () => {
   menuLateral.classList.remove("activo");
 });
 
-// Carga de menu dinamico
+// 3.Carga de menu dinamico
 async function cargarEtiquetas() {
   try {
     const respuesta = await fetch("/api/etiquetas");
@@ -44,7 +44,7 @@ async function cargarEtiquetas() {
   }
 }
 
-// Busqueda de versiculos
+// 4. Busqueda de versiculos
 async function buscarVersiculos(emocion) {
   contenedorResultados.innerHTML = "";
 
@@ -84,27 +84,71 @@ async function buscarVersiculos(emocion) {
 // 5. ENCENDIDO INICIAL
 cargarEtiquetas();
 
-// Función que lee lo que el usuario escribió y lo prepara
-function procesarBusqueda() {
-  let emocionEscrita = inputBusqueda.value.trim();
+// 6. Logica del buscador central estilo IA
+function interpretarEmocion(frase) {
+  // Pasar a minúsculas para facilitar la comparación
+  let texto = frase.toLowerCase();
 
-  if (emocionEscrita === "") {
-    return;
-  }
+  // Filtros de inteligencia artificial casera
+  if (
+    texto.includes("ansios") ||
+    texto.includes("ansiedad") ||
+    texto.includes("preocupad")
+  )
+    return "Ansiedad";
+  if (
+    texto.includes("miedo") ||
+    texto.includes("asustad") ||
+    texto.includes("temor") ||
+    texto.includes("panico")
+  )
+    return "Miedo";
+  if (
+    texto.includes("paz") ||
+    texto.includes("tranquil") ||
+    texto.includes("calma")
+  )
+    return "Paz";
+  if (
+    texto.includes("triste") ||
+    texto.includes("deprimid") ||
+    texto.includes("llorar") ||
+    texto.includes("mal")
+  )
+    return "Tristeza";
+  if (
+    texto.includes("cansad") ||
+    texto.includes("agotad") ||
+    texto.includes("estresad") ||
+    texto.includes("sin fuerzas")
+  )
+    return "Cansancio";
+  if (
+    texto.includes("enojad") ||
+    texto.includes("rabia") ||
+    texto.includes("ira") ||
+    texto.includes("furia")
+  )
+    return "Enojo";
 
-  let emocionCorregida =
-    emocionEscrita.charAt(0).toUpperCase() +
-    emocionEscrita.slice(1).toLowerCase();
-
-  buscarVersiculos(emocionCorregida);
-
-  inputBusqueda.value = "";
+  // Si no encuentra coincidencia en el diccionario se devuelve la primera palabra con mayúscula inicial por defecto
+  return texto.charAt(0).toUpperCase() + texto.slice(1);
 }
 
-// Escuchar cuando el usuario hace CLIC en el botón "Buscar"
+function procesarBusqueda() {
+  let fraseEscrita = inputBusqueda.value.trim();
+
+  if (fraseEscrita === "") return;
+
+  // Pasamos la frase del usuario por nuestro "cerebro" traductor
+  let emocionOficial = interpretarEmocion(fraseEscrita);
+
+  buscarVersiculos(emocionOficial);
+  inputBusqueda.value = ""; // Limpiamos la barra
+}
+
 btnBuscar.addEventListener("click", procesarBusqueda);
 
-// Escuchar cuando el usuario presiona la tecla ENTER en su teclado
 inputBusqueda.addEventListener("keypress", (evento) => {
   if (evento.key === "Enter") {
     procesarBusqueda();
