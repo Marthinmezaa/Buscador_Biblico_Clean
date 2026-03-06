@@ -1,10 +1,73 @@
 [
   {
-    "libro": "1 Pedro",
-    "capitulo": 5,
-    "versiculo": 7,
-    "texto": "Depositen en él toda ansiedad, porque él cuida de ustedes.",
-    "emocion": "Ansiedad",
+    "libro": "Isaías",
+    "capitulo": 41,
+    "versiculo": 10,
+    "texto": "Así que no temas, porque yo estoy contigo; no te angusties, porque yo soy tu Dios. Te fortaleceré y te ayudaré; te sostendré con la diestra de mi justicia.",
+    "emocion": "Miedo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmos",
+    "capitulo": 56,
+    "versiculo": 3,
+    "texto": "Cuando siento miedo, pongo en ti mi confianza.",
+    "emocion": "Miedo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmos",
+    "capitulo": 56,
+    "versiculo": 3,
+    "texto": "Cuando siento miedo, pongo en ti mi confianza.",
+    "emocion": "Miedo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Josué",
+    "capitulo": 1,
+    "versiculo": 9,
+    "texto": "Ya te lo he ordenado: ¡Sé fuerte y valiente! ¡No tengas miedo ni te desanimes! Porque el Señor tu Dios te acompañará dondequiera que vayas.",
+    "emocion": "Miedo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 41,
+    "versiculo": 13,
+    "texto": "Porque yo soy el Señor tu Dios, que sostiene tu mano derecha; yo soy quien te dice: No temas, yo te ayudaré.",
+    "emocion": "Miedo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 118,
+    "versiculo": 6,
+    "texto": "El Señor está conmigo y no tengo miedo; ¿qué me puede hacer un simple mortal?",
+    "emocion": "Miedo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 18,
+    "texto": "En el amor no hay temor, sino que el amor perfecto echa fuera el temor. El que teme espera el castigo, así que no ha sido perfeccionado en el amor.",
+    "emocion": "Miedo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 23,
+    "versiculo": 4,
+    "texto": "Aun si voy por valles tenebrosos, no temeré ningún mal porque tú estás a mi lado; tu vara y tu bastón me reconfortan.",
+    "emocion": "Miedo",
     "categoria": "Negativos"
   }
 ]
