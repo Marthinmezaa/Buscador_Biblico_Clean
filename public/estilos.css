@@ -204,7 +204,7 @@ header {
 .caja-busqueda {
   display: flex;
   justify-content: center;
-  max-width: 600px;
+  max-width: 750px;
   width: 100%;
   margin: 0 auto;
   gap: 10px;
@@ -256,6 +256,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+  width: 100%;
   max-width: 750px;
   margin: 0 auto;
   margin-top: 2rem;
@@ -269,6 +270,7 @@ header {
   border: 1px solid var(--color-borde);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
   width: 100%;
+  box-sizing: border-box;
   text-align: left;
   border-left: 5px solid var(--color-acento);
   transition: transform 0.2s ease;
@@ -299,6 +301,18 @@ header {
   color: var(--texto-secundario);
   font-size: 1.1rem;
   text-align: center;
+}
+
+/* Estilos para el indicador de "Última búsqueda" */
+#indicador-busqueda {
+  text-align: center;
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  min-height: 1.5rem;
 }
 
 /* ==========================================
@@ -332,5 +346,18 @@ header {
     padding: 0.5rem;
     font-size: 1.1rem;
     border-radius: 50px;
+  }
+
+  .buscador-container,
+  .grid-resultados {
+    width: 90% !important;
+    max-width: none; /* Ignoramos los anchos de la computadora */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tarjeta-versiculo {
+    width: 100%;
+    box-sizing: border-box;
   }
 }

@@ -11,6 +11,7 @@ const btnCerrarMenu = document.getElementById("btn-cerrar-menu");
 const menuLateral = document.getElementById("menu-lateral");
 const contenedorEtiquetas = document.getElementById("contenedor-etiquetas");
 const contenedorResultados = document.getElementById("contenedor-resultados");
+const indicadorBusqueda = document.getElementById("indicador-busqueda");
 
 const inputBusqueda = document.getElementById("input-busqueda");
 const btnBuscar = document.getElementById("btn-buscar");
@@ -105,6 +106,8 @@ async function buscarVersiculos(emocion) {
   // Estado de carga visual
   contenedorResultados.innerHTML =
     '<p class="mensaje-bienvenida">Buscando en la Biblia...</p>';
+
+  indicadorBusqueda.innerHTML = `Última búsqueda: <strong>"${emocion}"</strong>`;
 
   try {
     const respuesta = await fetch(`/api/buscar/${encodeURIComponent(emocion)}`);

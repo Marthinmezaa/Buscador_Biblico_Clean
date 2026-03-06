@@ -6,23 +6,5 @@
     "texto": "Les aseguro que ustedes llorarán de dolor, mientras que el mundo se alegrará. Se pondrán tristes, pero su tristeza se convertirá en alegría. La mujer que está por dar a luz siente dolores porque ha llegado su momento, pero en cuanto nace la criatura se olvida de su angustia por la alegría de haber traído al mundo un nuevo ser. Lo mismo les pasa a ustedes; ahora están tristes, pero cuando vuelva a verlos se alegrarán y nadie les va a quitar esa alegría.",
     "emocion": "Tristeza",
     "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Santiago",
-    "capitulo": 5,
-    "versiculo": 13,
-    "texto": "¿Está alguno entre vosotros afligido? Haga oración. ¿Está alguno alegre? Cante alabanzas.",
-    "emocion": "Tristeza",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Santiago",
-    "capitulo": 5,
-    "versiculo": 13,
-    "texto": "Bendito sea el Dios y Padre de nuestro Señor Jesucristo, Padre misericordioso y Dios de toda consolación, 4 quien nos consuela en todas nuestras tribulaciones para que, con el mismo consuelo que de Dios hemos recibido, también nosotros podamos consolar a todos los que sufren.",
-    "emocion": "Tristeza",
-    "categoria": "Negativos"
   }
 ]
