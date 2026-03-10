@@ -1,145 +1,127 @@
 [
   {
     "libro": "Salmo",
-    "capitulo": 9,
-    "versiculo": 9,
-    "texto": "El Señor es refugio de los oprimidos; es su baluarte en momentos de angustia.",
-    "emocion": "Angustia/Desesperación",
+    "capitulo": 37,
+    "versiculo": 8,
+    "texto": "Refrena la ira, deja la furia; no te enojes, pues esto conduce al mal.",
+    "emocion": "Ira/Enojo",
     "categoria": "Negativos"
   },
 
   {
-    "libro": "Salmo",
-    "capitulo": 118,
-    "versiculo": 5,
-    "texto": "Desde mi angustia clamé al Señor y él respondió dándome libertad.",
-    "emocion": "Angustia/Desesperación",
+    "libro": "Proverbios",
+    "capitulo": 15,
+    "versiculo": 1,
+    "texto": "El que es paciente muestra gran inteligencia; el que es agresivo muestra mucha insensatez.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Santiago",
+    "capitulo": 1,
+    "versiculo": 20,
+    "texto": "pues el enojo de una persona no produce la vida justa que Dios quiere.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 4,
+    "versiculo": 31,
+    "texto": "Abandonen toda amargura, ira y enojo, gritos y calumnias y toda forma de malicia.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 4,
+    "versiculo": 32,
+    "texto": "Más bien, sean bondadosos y compasivos unos con otros y perdónense mutuamente, así como Dios los perdonó a ustedes en Cristo.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Santiago",
+    "capitulo": 1,
+    "versiculo": 19,
+    "texto": "Mis queridos hermanos, tengan presente esto: Todos deben estar listos para escuchar, pero no apresurarse para hablar ni para enojarse.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 10,
+    "versiculo": 12,
+    "texto": "El odio es motivo de disensiones, pero el amor cubre todas las faltas.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 19,
+    "versiculo": 11,
+    "texto": "El buen juicio hace al hombre paciente; su gloria es pasar por alto la ofensa.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 17,
+    "versiculo": 27,
+    "texto": "El que es entendido refrena sus palabras; el que es prudente controla sus impulsos.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 4,
+    "versiculo": "31-32",
+    "texto": "Abandonen toda amargura, ira y enojo, gritos y calumnias y toda forma de malicia. Más bien, sean bondadosos y compasivos unos con otros y perdónense mutuamente, así como Dios los perdonó a ustedes en Cristo.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Santiago",
+    "capitulo": 4,
+    "versiculo": 1,
+    "texto": "¿De dónde surgen las guerras y los conflictos entre ustedes? ¿No es precisamente de las pasiones que luchan dentro de ustedes mismos?.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 29,
+    "versiculo": 11,
+    "texto": "El necio da rienda suelta a su ira, pero el sabio sabe dominarla.",
+    "emocion": "Ira/Enojo",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 29,
+    "versiculo": 11,
+    "texto": "El necio da rienda suelta a su ira, pero el sabio sabe dominarla.",
+    "emocion": "Ira/Enojo",
     "categoria": "Negativos"
   },
 
   {
     "libro": "Nahúm",
     "capitulo": 1,
-    "versiculo": 7,
-    "texto": "Bueno es el Señor; es refugio en el día de la angustia y conoce a los que en él confían.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 18,
-    "versiculo": 6,
-    "texto": "En mi angustia invoqué al Señor; clamé a mi Dios por ayuda. Él me escuchó desde su Templo; ¡mi clamor llegó a sus oídos!.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Romanos",
-    "capitulo": 8,
-    "versiculo": 35,
-    "texto": "¿Quién nos apartará del amor de Cristo? ¿La tribulación o la angustia, la persecución, el hambre, la desnudez, el peligro o la espada?.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 59,
-    "versiculo": 16,
-    "texto": "Pero yo cantaré a tu poder y por la mañana alabaré tu amor; porque tú eres mi protector, mi refugio en momentos de angustia.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 94,
-    "versiculo": 19,
-    "texto": "Cuando en mí la angustia iba en aumento, tu consuelo llenaba mi alma de alegría.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Proverbios",
-    "capitulo": 12,
-    "versiculo": 25,
-    "texto": "La angustia abate el corazón del hombre, pero una palabra amable lo alegra.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Proverbios",
-    "capitulo": 17,
-    "versiculo": 17,
-    "texto": "En todo tiempo ama el amigo; para ayudar en la adversidad nació el hermano.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 46,
-    "versiculo": 1,
-    "texto": "Dios es nuestro refugio y nuestra fortaleza, nuestra segura ayuda en momentos de angustia.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Jeremías",
-    "capitulo": 17,
-    "versiculo": "7-8",
-    "texto": "Bendito el hombre que confía en el Señor y pone su confianza en él. Será como un árbol plantado junto al agua que extiende sus raíces hacia la corriente; no teme que llegue el calor y sus hojas están siempre verdes. En época de sequía no se angustia y nunca deja de dar fruto.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 34,
-    "versiculo": 6,
-    "texto": "Este pobre clamó, el Señor lo oyó y lo libró de todas sus angustias.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 34,
-    "versiculo": "17-18",
-    "texto": "Los justos claman, el Señor los oye y los libra de todas sus angustias. El Señor está cerca de los quebrantados de corazón, y salva a los de espíritu abatido.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 34,
-    "versiculo": 19,
-    "texto": "Muchas son las angustias del justo, pero el Señor lo librará de todas ellas.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 42,
-    "versiculo": 11,
-    "texto": "¿Por qué estás tan abatida, alma mía? ¿Por qué estás angustiada? En Dios pondré mi esperanza y lo seguiré alabando. ¡Él es mi salvación y mi Dios!.",
-    "emocion": "Angustia/Desesperación",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Filipenses",
-    "capitulo": 4,
-    "versiculo": "6-7",
-    "texto": "No se preocupen por nada; más bien, en toda ocasión, con oración y ruego, presenten sus peticiones a Dios y denle gracias. Y la paz de Dios, que sobrepasa todo entendimiento, cuidará sus corazones y sus pensamientos en Cristo Jesús.",
-    "emocion": "Angustia/Desesperación",
+    "versiculo": 3,
+    "texto": "El Señor es lento para la ira, pero grande en poder. El Señor no deja sin castigo al culpable. Camina en el huracán y en la tormenta; las nubes son el polvo de sus pies.",
+    "emocion": "Ira/Enojo",
     "categoria": "Negativos"
   }
 ]
