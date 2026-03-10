@@ -27,7 +27,10 @@ db.serialize(() => {
         ('paz', 'Paz'),
         ('triste', 'Tristeza/Aflicción'),
         ('llorar', 'Tristeza/Aflicción'),
-        ('deprimid', 'Tristeza/Aflicción')
+        ('bajon' ,'Tristeza/Aflicción'),
+        ('deprimid', 'Tristeza/Aflicción'),
+        ('angusti', 'Angustia/Desesperación'),
+        ('desespera', 'Angustia/Desesperación')
     `;
 
   db.run(sql, (err) => {
