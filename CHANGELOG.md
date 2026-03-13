@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.2.0...v1.2.1) (2026-03-13)
+
+
+### Bug Fixes
+
+* revertir cambios no deseados y restaurar estabilidad del PR [#12](https://github.com/Marthinmezaa/Buscador_Biblico/issues/12) ([b8b7aac](https://github.com/Marthinmezaa/Buscador_Biblico/commit/b8b7aacb531476e59e1b276b969bb10416ce8855))
+* revertir cambios no deseados y restaurar estabilidad del PR [#12](https://github.com/Marthinmezaa/Buscador_Biblico/issues/12) ([62414a6](https://github.com/Marthinmezaa/Buscador_Biblico/commit/62414a6ef550559a9a4d0a45ebadf2251472a9ca))
+
 ## [1.1.0](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.0.0...v1.1.0) (2026-03-13)
 
 
