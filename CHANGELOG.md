@@ -1,19 +1,5 @@
 # Changelog
 
-## [1.2.0](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.1.0...v1.2.0) (2026-03-13)
-
-
-### Features
-
-* implementar conexion segura a sqlite y sistema de seed con tran… ([7f1177a](https://github.com/Marthinmezaa/Buscador_Biblico/commit/7f1177a5ccc8157479413c441c20bf7f612ae47c))
-* implementar conexion segura a sqlite y sistema de seed con transacciones ([28c30fb](https://github.com/Marthinmezaa/Buscador_Biblico/commit/28c30fb37e0faf3d63a1f34666f302c44a842b48))
-
-
-### Bug Fixes
-
-* usar sqlite3 v5.1.7 para compatibilidad con Render y ajustar niv… ([e848886](https://github.com/Marthinmezaa/Buscador_Biblico/commit/e8488865c684c6985f67ab11cbed3c1a7634ab6c))
-* usar sqlite3 v5.1.7 para compatibilidad con Render y ajustar nivel de auditoría ([2744717](https://github.com/Marthinmezaa/Buscador_Biblico/commit/27447172437103b9336857813cb10e49332a87d3))
-
 ## [1.1.0](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.0.0...v1.1.0) (2026-03-13)
 
 
