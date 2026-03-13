@@ -7,7 +7,8 @@ const sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 
 // 1. Construcción de ruta absoluta para evitar errores de directorios al ejecutar Node
-const dbPath = path.resolve(__dirname, "../../biblia.db");
+const dbPath =
+  process.env.DB_PATH || path.resolve(__dirname, "../../biblia.db");
 
 // 2. Instanciamos la conexión a la base de datos
 const db = new sqlite3.Database(dbPath, (err) => {
@@ -21,36 +22,72 @@ const db = new sqlite3.Database(dbPath, (err) => {
 // 3. Serialización: Garantiza que las tablas se creen en orden secuencial
 db.serialize(() => {
   // Tabla Principal: Almacena los versículos puros
-  db.run(`CREATE TABLE IF NOT EXISTS versiculos (
+  db.run(
+    `CREATE TABLE IF NOT EXISTS versiculos (
         id INTEGER PRIMARY KEY,
         libro TEXT NOT NULL,
         capitulo INTEGER NOT NULL,
         numero_versiculo TEXT NOT NULL,
         texto TEXT NOT NULL
-        )`);
+        )`,
+    (err) => {
+      if (err) {
+        console.error("Error al crear tabla versiculos:", err.message);
+      } else {
+        console.log("Tabla versiculos creada/actualizada.");
+      }
+    },
+  );
 
   // Tabla de Clasificación: Menú de emociones (Actualizada con 'categoria')
-  db.run(`CREATE TABLE IF NOT EXISTS etiquetas (
+  db.run(
+    `CREATE TABLE IF NOT EXISTS etiquetas (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nombre TEXT NOT NULL UNIQUE,
         categoria TEXT NOT NULL
-        )`);
+        )`,
+    (err) => {
+      if (err) {
+        console.error("Error al crear tabla etiquetas:", err.message);
+      } else {
+        console.log("Tabla etiquetas creada/actualizada.");
+      }
+    },
+  );
 
   // Tabla Puente (Relación Muchos a Muchos): Conecta un versículo con múltiples emociones
-  db.run(`CREATE TABLE IF NOT EXISTS versiculo_etiqueta (
+  db.run(
+    `CREATE TABLE IF NOT EXISTS versiculo_etiqueta (
         versiculo_id INTEGER,
         etiqueta_id INTEGER,
         PRIMARY KEY (versiculo_id, etiqueta_id),
         FOREIGN KEY (versiculo_id) REFERENCES versiculos(id),
         FOREIGN KEY (etiqueta_id) REFERENCES etiquetas(id)
-        )`);
+        )`,
+    (err) => {
+      if (err) {
+        console.error("Error al crear tabla versiculo_etiqueta:", err.message);
+      } else {
+        console.log("Tabla versiculo_etiqueta creada/actualizada.");
+      }
+    },
+  );
 
   // Tabla Diccionario de IA
-  db.run(`CREATE TABLE IF NOT EXISTS sinonimos (
+  db.run(
+    `CREATE TABLE IF NOT EXISTS sinonimos (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         palabra_clave TEXT NOT NULL UNIQUE,
         emocion_oficial TEXT NOT NULL
-        )`);
+        )`,
+    (err) => {
+      if (err) {
+        console.error("Error al crear tabla sinonimos:", err.message);
+      } else {
+        console.log("Tabla sinonimos creada/actualizada.");
+      }
+    },
+  );
 
   console.log("Estructura de tablas verificada y lista para operar.");
 });
