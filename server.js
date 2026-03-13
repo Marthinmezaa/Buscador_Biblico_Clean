@@ -33,7 +33,3 @@ app.use("/api", apiRoutes);
 app.listen(PORT, () => {
   console.log(`Servidor corriendo perfectamente en el puerto ${PORT}`);
 });
-
-/**
- * SOLO PRUEBA
- */
