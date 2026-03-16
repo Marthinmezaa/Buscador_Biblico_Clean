@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.3.0...v1.4.0) (2026-03-16)
+
+
+### Features
+
+* agregando nuevos versiculos de Verguenza y optimizando IA ([d6ccb52](https://github.com/Marthinmezaa/Buscador_Biblico/commit/d6ccb529c58894b86ea3233e318cdc5e41200d48))
+
 ## [1.3.0](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.2.1...v1.3.0) (2026-03-16)
 
 
