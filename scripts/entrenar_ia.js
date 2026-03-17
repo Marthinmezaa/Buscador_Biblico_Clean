@@ -18,13 +18,15 @@ db.serialize(() => {
   // 2. Inyectamos las traducciones.
   // Izquierda: lo que el usuario escribe. Derecha: tu hashtag oficial.
   const sql = `INSERT INTO sinonimos (palabra_clave, emocion_oficial) VALUES 
+        ('goz', 'Gozo/Alegría'),
+        ('alegr', 'Gozo/Alegría'),
+        ('paz', 'Paz'),
         ('ansios', 'Ansiedad/Preocupación'),
         ('preocupad', 'Ansiedad/Preocupación'),
         ('ansie', 'Ansiedad/Preocupación'),
         ('miedo', 'Miedo/Temor'),
         ('temor', 'Miedo/Temor'),
         ('panico', 'Miedo/Temor'),
-        ('paz', 'Paz'),
         ('triste', 'Tristeza/Aflicción'),
         ('llorar', 'Tristeza/Aflicción'),
         ('bajon' ,'Tristeza/Aflicción'),

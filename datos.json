@@ -1,118 +1,298 @@
 [
   {
-    "libro": "1 Juan",
-    "capitulo": 1,
-    "versiculo": 9,
-    "texto": "Si confesamos nuestros pecados, Dios, que es fiel y justo, nos los perdonará y nos limpiará de toda maldad.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "libro": "1 Tesalonicenses",
+    "capitulo": 5,
+    "versiculo": "16-18",
+    "texto": "Estén siempre alegres, oren sin cesar, den gracias a Dios en toda situación, porque esta es su voluntad para ustedes en Cristo Jesús.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Filipenses",
+    "capitulo": 4,
+    "versiculo": 4,
+    "texto": "Alégrense siempre en el Señor. Insisto: ¡Alégrense!.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 34,
-    "versiculo": "4-5",
-    "texto": "Busqué al Señor y él me respondió; me libró de todos mis temores, los que lo miran están radiantes; jamás su rostro se cubre de vergüenza.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "capitulo": 94,
+    "versiculo": 19,
+    "texto": "Cuando en mí la angustia iba en aumento, tu consuelo llenaba mi alma de alegría.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   },
 
   {
-    "libro": "Romanos",
-    "capitulo": 10,
+    "libro": "Salmo",
+    "capitulo": 118,
+    "versiculo": 24,
+    "texto": "Este es el día que hizo el Señor; regocijémonos y alegrémonos en él.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Habacuc",
+    "capitulo": 3,
+    "versiculo": "17-18",
+    "texto": "Aunque la higuera no florezca ni haya frutos en las vides; aunque falle la cosecha del olivo y los campos no produzcan alimentos; aunque en el redil no haya ovejas ni vaca alguna en los establos; aun así, yo me regocijaré en el Señor. ¡Me alegraré en el Dios de mi salvación!.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 16,
     "versiculo": 11,
-    "texto": "Así dice la Escritura: «Todo el que confíe en él no será defraudado».",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 31,
-    "versiculo": 17,
-    "texto": "Señor , no permitas que me avergüencen, porque a ti he clamado. Que sean avergonzados los malvados y silenciados en el sepulcro.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Marcos",
-    "capitulo": 8,
-    "versiculo": 38,
-    "texto": "Si alguien se avergüenza de mí y de mis palabras en medio de esta generación adúltera y pecadora, también el Hijo del hombre se avergonzará de él cuando venga en la gloria de su Padre con los santos ángeles.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "Romanos",
-    "capitulo": 8,
-    "versiculo": 1,
-    "texto": "Por lo tanto, ya no hay ninguna condenación para los que están en Cristo Jesús.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "texto": "Me has dado a conocer el camino de la vida; me llenarás de alegría en tu presencia y de dicha eterna a tu derecha.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   },
 
   {
     "libro": "Isaías",
-    "capitulo": 54,
-    "versiculo": 4,
-    "texto": "»No temas, porque no serás avergonzada. No te turbes, porque no serás humillada. Olvidarás la vergüenza de tu juventud y no recordarás más la deshonra de tu viudez.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "capitulo": 61,
+    "versiculo": 10,
+    "texto": "Me deleito mucho en el Señor; me regocijo en mi Dios. Porque él me vistió con ropas de salvación y me cubrió con el manto de la justicia. Soy semejante a un novio que luce su diadema o una novia adornada con sus joyas.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 61,
+    "versiculo": 10,
+    "texto": "Les he dicho esto para que tengan mi alegría y así su alegría sea completa.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Pedro",
+    "capitulo": 1,
+    "versiculo": "8-9",
+    "texto": "Ustedes lo aman a pesar de no haberlo visto; y aunque no lo ven ahora, creen en él y se alegran con un gozo indescriptible y glorioso, pues están obteniendo la meta de su fe, que es su salvación.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 16,
+    "versiculo": 24,
+    "texto": "Hasta ahora no han pedido nada en mi nombre. Pidan y recibirán para que su alegría sea completa.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 12,
+    "versiculo": 10,
+    "texto": "Por eso me regocijo en debilidades, insultos, privaciones, persecuciones y dificultades que sufro por Cristo; porque, cuando soy débil, entonces soy fuerte.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Gálatas",
+    "capitulo": 5,
+    "versiculo": "22-23",
+    "texto": "En cambio, el fruto del Espíritu es amor, alegría, paz, paciencia, amabilidad, bondad, fidelidad, humildad y dominio propio. No hay ley que condene estas cosas.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 15,
+    "versiculo": 23,
+    "texto": "Es muy grato dar la respuesta adecuada y, cuando es oportuna, aún es más grato.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 3,
-    "versiculo": 3,
-    "texto": "Pero tú, Señor , eres el escudo que me protege; tú eres mi gloria; tú mantienes en alto mi cabeza.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "capitulo": 32,
+    "versiculo": 7,
+    "texto": "Tú eres mi refugio; tú me protegerás del peligro y me rodearás con cánticos de liberación. Selah.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   },
 
   {
-    "libro": "Salmo",
-    "capitulo": 37,
-    "versiculo": "18-19",
-    "texto": "El Señor conoce la vida de los íntegros, y su herencia perdura por siempre, en tiempos difíciles no serán avergonzados; en épocas de hambre tendrán abundancia.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "libro": "2 Corintios",
+    "capitulo": 9,
+    "versiculo": 7,
+    "texto": "Cada uno debe dar según lo que haya decidido en su corazón, no de mala gana ni por obligación, porque Dios ama al que da con alegría.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 17,
+    "versiculo": 22,
+    "texto": "El corazón alegre es un buen remedio, pero el ánimo decaído seca los huesos.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   },
 
   {
     "libro": "Romanos",
-    "capitulo": 1,
-    "versiculo": 16,
-    "texto": "A la verdad, no me avergüenzo del evangelio, pues es poder de Dios para la salvación de todos los que creen: de los judíos primeramente, pero también de los que no son judíos.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
-  },
-
-  {
-    "libro": "1 Juan",
-    "capitulo": 2,
-    "versiculo": 28,
-    "texto": "Y ahora, queridos hijos, permanezcan en él para que, cuando se manifieste, podamos presentarnos ante él confiadamente, seguros de no ser avergonzados en su venida.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "capitulo": 12,
+    "versiculo": 15,
+    "texto": "Alégrense con los que están alegres; lloren con los que lloran.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 69,
-    "versiculo": 6,
-    "texto": "Señor Soberano de los Ejércitos, que no sean avergonzados por mi culpa los que en ti esperan; oh Dios de Israel, que no sean humillados por mi culpa los que te buscan.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "capitulo": 119,
+    "versiculo": 111,
+    "texto": "Tus mandatos son mi herencia permanente; son la alegría de mi corazón.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   },
 
   {
-    "libro": "Miqueas",
+    "libro": "3 Juan",
+    "capitulo": 1,
+    "versiculo": 4,
+    "texto": "Nada me produce más alegría que oír que mis hijos viven en la verdad.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Eclasiastés",
     "capitulo": 7,
+    "versiculo": 14,
+    "texto": "Cuando te vengan buenos tiempos, disfrútalos; pero cuando te lleguen los malos, piensa que unos y otros son obra de Dios, y que nadie sabe con qué habrá de encontrarse después.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Eclasiastés",
+    "capitulo": 3,
+    "versiculo": "12-13",
+    "texto": "Yo sé que nada hay mejor para el hombre que alegrarse y hacer el bien mientras viva; y sé también que es un don de Dios que el hombre coma o beba y disfrute de todos sus afanes.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 119,
+    "versiculo": 14,
+    "texto": "Me regocijo en el camino de tus mandatos más que en todas las riquezas.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 6,
+    "versiculo": 10,
+    "texto": "Aparentemente tristes, pero siempre alegres; pobres en apariencia, pero enriqueciendo a muchos; como si no tuviéramos nada, pero poseyéndolo todo.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 23,
+    "versiculo": 24,
+    "texto": "El padre del justo experimenta gran regocijo; quien tiene un hijo sabio se deleita en él.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Nehemías",
+    "capitulo": 8,
+    "versiculo": 10,
+    "texto": "Luego Nehemías añadió: «Ya pueden irse. Coman bien, tomen bebidas dulces y compartan su comida con quienes no tengan nada, porque este día ha sido consagrado a nuestro Señor. No estén tristes, pues el gozo del Señor es su fortaleza».",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Eclasiastés",
+    "capitulo": 9,
+    "versiculo": 7,
+    "texto": "¡Anda, come tu pan con gozo! ¡Bebe tu vino con corazón alegre, que Dios ya se ha agradado de tus obras!.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 19,
+    "versiculo": 8,
+    "texto": "Los preceptos del Señor son rectos: traen alegría al corazón. El mandamiento del Señor es claro: da luz a los ojos.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 23,
+    "versiculo": 15,
+    "texto": "Hijo mío, si tu corazón es sabio, también mi corazón se regocijará.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Lucas",
+    "capitulo": 10,
+    "versiculo": 20,
+    "texto": "Sin embargo, no se alegren de que puedan someter a los espíritus, sino alégrense de que sus nombres están escritos en el cielo.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 12,
+    "versiculo": 20,
+    "texto": "En los que planean el mal habita el engaño, pero hay gozo para los que promueven la paz.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Lucas",
+    "capitulo": 15,
+    "versiculo": 7,
+    "texto": "Les digo que así es también en el cielo: habrá más alegría por un solo pecador que se arrepienta que por noventa y nueve justos que no necesitan arrepentirse.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Eclasiastés",
+    "capitulo": 5,
     "versiculo": 19,
-    "texto": "Vuelve a compadecerte de nosotros. Pon tu pie sobre nuestras maldades y arroja al fondo del mar todos nuestros pecados.",
-    "emocion": "Verguenza",
-    "categoria": "Negativos"
+    "texto": "Además, a quien Dios concede abundancia y riquezas, también concede comer de ellas, así como tomar su parte y disfrutar de sus afanes, pues esto es don de Dios.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Mateo",
+    "capitulo": 13,
+    "versiculo": 44,
+    "texto": "El reino de los cielos es como un tesoro escondido en un campo. Cuando un hombre lo descubrió, lo volvió a esconder, y lleno de alegría fue y vendió todo lo que tenía y compró ese campo.",
+    "emocion": "Gozo/Alegría",
+    "categoria": "Positivos"
   }
 ]
