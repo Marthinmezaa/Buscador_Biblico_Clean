@@ -1,100 +1,370 @@
 [
   {
-    "libro": "1 Tesalonicenses",
-    "capitulo": 5,
-    "versiculo": "16-18",
-    "texto": "Estén siempre alegres, oren sin cesar, den gracias a Dios en toda situación, porque esta es su voluntad para ustedes en Cristo Jesús.",
-    "emocion": "Gozo/Alegría",
+    "libro": "1 Corintios",
+    "capitulo": 13,
+    "versiculo": "4-5",
+    "texto": "El amor es paciente, es bondadoso. El amor no es envidioso ni presumido ni orgulloso. No se comporta con rudeza, no es egoísta, no se enoja fácilmente, no guarda rencor.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Filipenses",
-    "capitulo": 4,
-    "versiculo": 4,
-    "texto": "Alégrense siempre en el Señor. Insisto: ¡Alégrense!.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 94,
-    "versiculo": 19,
-    "texto": "Cuando en mí la angustia iba en aumento, tu consuelo llenaba mi alma de alegría.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 118,
-    "versiculo": 24,
-    "texto": "Este es el día que hizo el Señor; regocijémonos y alegrémonos en él.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Habacuc",
-    "capitulo": 3,
-    "versiculo": "17-18",
-    "texto": "Aunque la higuera no florezca ni haya frutos en las vides; aunque falle la cosecha del olivo y los campos no produzcan alimentos; aunque en el redil no haya ovejas ni vaca alguna en los establos; aun así, yo me regocijaré en el Señor. ¡Me alegraré en el Dios de mi salvación!.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
+    "libro": "1 Corintios",
     "capitulo": 16,
-    "versiculo": 11,
-    "texto": "Me has dado a conocer el camino de la vida; me llenarás de alegría en tu presencia y de dicha eterna a tu derecha.",
-    "emocion": "Gozo/Alegría",
+    "versiculo": 14,
+    "texto": "Hagan todo con amor.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Isaías",
-    "capitulo": 61,
-    "versiculo": 10,
-    "texto": "Me deleito mucho en el Señor; me regocijo en mi Dios. Porque él me vistió con ropas de salvación y me cubrió con el manto de la justicia. Soy semejante a un novio que luce su diadema o una novia adornada con sus joyas.",
-    "emocion": "Gozo/Alegría",
+    "libro": "Salmo",
+    "capitulo": 143,
+    "versiculo": 8,
+    "texto": "Por la mañana hazme saber de tu gran amor, porque en ti he puesto mi confianza. Señálame el camino que debo seguir porque a ti elevo mi alma.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Isaías",
-    "capitulo": 61,
-    "versiculo": 10,
-    "texto": "Les he dicho esto para que tengan mi alegría y así su alegría sea completa.",
-    "emocion": "Gozo/Alegría",
+    "libro": "Colosenses",
+    "capitulo": 3,
+    "versiculo": 14,
+    "texto": "Por encima de todo, vístanse de amor, que es el vínculo perfecto.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 3,
+    "versiculo": "3-4",
+    "texto": "Que nunca te abandonen el amor y la verdad: llévalos siempre alrededor de tu cuello y escríbelos en la tabla de tu corazón. Contarás con el favor de Dios y tendrás buen nombre entre la gente.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 16,
+    "texto": "Y nosotros hemos llegado a saber y creer que Dios nos ama. Dios es amor. El que permanece en amor, en Dios permanece y Dios en él.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Corintios",
+    "capitulo": 13,
+    "versiculo": 13,
+    "texto": "Ahora, pues, permanecen la fe, la esperanza y el amor. Pero el amor es el más importante.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 19,
+    "texto": "Nosotros amamos porque él nos amó primero.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 4,
+    "versiculo": 2,
+    "texto": "Siempre humildes y amables, pacientes, tolerantes unos con otros en amor.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
     "libro": "1 Pedro",
-    "capitulo": 1,
-    "versiculo": "8-9",
-    "texto": "Ustedes lo aman a pesar de no haberlo visto; y aunque no lo ven ahora, creen en él y se alegran con un gozo indescriptible y glorioso, pues están obteniendo la meta de su fe, que es su salvación.",
-    "emocion": "Gozo/Alegría",
+    "capitulo": 4,
+    "versiculo": 8,
+    "texto": "Sobre todo, ámense los unos a los otros profundamente, porque el amor cubre muchísimos pecados.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 12,
+    "versiculo": 9,
+    "texto": "El amor debe ser sincero. Aborrezcan el mal; aférrense al bien.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 3,
+    "versiculo": "16-17",
+    "texto": "Le pido que, por medio del Espíritu y con el poder que procede de sus gloriosas riquezas, los fortalezca a ustedes en lo íntimo de su ser, para que por fe Cristo habite en sus corazones. Y pido que, arraigados y cimentados en amor.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Juan",
-    "capitulo": 16,
-    "versiculo": 24,
-    "texto": "Hasta ahora no han pedido nada en mi nombre. Pidan y recibirán para que su alegría sea completa.",
-    "emocion": "Gozo/Alegría",
+    "capitulo": 15,
+    "versiculo": 12,
+    "texto": "Y este es mi mandamiento: que se amen los unos a los otros como yo los he amado.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "2 Corintios",
+    "libro": "1 Corintios",
+    "capitulo": 13,
+    "versiculo": 2,
+    "texto": "Si tengo el don de profecía y entiendo todos los misterios; si poseo todo conocimiento, si tengo una fe que logra trasladar montañas, pero me falta el amor, no soy nada.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Tesalonicenses",
+    "capitulo": 3,
+    "versiculo": 5,
+    "texto": "Que el Señor lleve sus corazones a amar como Dios ama y a perseverar como Cristo perseveró.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 49,
+    "versiculo": "15-16",
+    "texto": "¿Puede una madre olvidar a su niño de pecho y dejar de amar al hijo que ha dado a luz? Aun cuando ella lo olvidara, ¡yo no te olvidaré! Grabada te llevo en las palmas de mis manos; tus muros siempre los tengo presentes.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
     "capitulo": 12,
     "versiculo": 10,
-    "texto": "Por eso me regocijo en debilidades, insultos, privaciones, persecuciones y dificultades que sufro por Cristo; porque, cuando soy débil, entonces soy fuerte.",
-    "emocion": "Gozo/Alegría",
+    "texto": "Ámense los unos a los otros con amor fraternal, respetándose y honrándose mutuamente.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 5,
+    "versiculo": "25-26",
+    "texto": "Esposos, amen a sus esposas, así como Cristo amó a la iglesia y se entregó por ella para hacerla santa. Él la purificó, lavándola con agua mediante la palabra.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 12,
+    "texto": "Nadie ha visto jamás a Dios, pero si nos amamos los unos a los otros, Dios permanece entre nosotros y entre nosotros su amor se ha manifestado plenamente.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Cantares",
+    "capitulo": 8,
+    "versiculo": 6,
+    "texto": "Grábame como un sello sobre tu corazón; llévame como una marca sobre tu brazo. Fuerte es el amor, como la muerte; el celo, inconmovible como el sepulcro. Como llama divina es el fuego ardiente del amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 20,
+    "texto": "Si alguien afirma: «Yo amo a Dios», pero odia a su hermano, es un mentiroso; pues el que no ama a su hermano, a quien ha visto, no puede amar a Dios, a quien no ha visto.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 15,
+    "versiculo": 13,
+    "texto": "Nadie tiene amor más grande que el que da la vida por sus amigos.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 18,
+    "texto": "En el amor no hay temor, sino que el amor perfecto echa fuera el temor. El que teme espera el castigo, así que no ha sido perfeccionado en el amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 43,
+    "versiculo": 4,
+    "texto": "Porque eres precioso a mis ojos y digno de honra, yo te amo. A cambio de ti entregaré pueblos; a cambio de tu vida entregaré naciones.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Corintios",
+    "capitulo": 2,
+    "versiculo": 9,
+    "texto": "Sin embargo, como está escrito: «Ningún ojo ha visto, ningún oído ha escuchado, ningún corazón ha concebido lo que Dios ha preparado para quienes lo aman».",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 13,
+    "versiculo": 8,
+    "texto": "No tengan deudas pendientes con nadie a no ser la de amarse unos a otros. De hecho, quien ama al prójimo ha cumplido la Ley.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Tesalonicenses",
+    "capitulo": 3,
+    "versiculo": 12,
+    "texto": "Que el Señor los haga crecer para que se amen más y más unos a otros, y a todos, tal como nosotros los amamos a ustedes.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 3,
+    "versiculo": 1,
+    "texto": "¡Fíjense qué gran amor nos ha dado el Padre, que se nos llame hijos de Dios! ¡Y lo somos! El mundo no nos conoce, precisamente, porque no lo conoció a él.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 8,
+    "texto": "El que no ama no conoce a Dios, porque Dios es amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 10,
+    "versiculo": 12,
+    "texto": "El odio es motivo de disensiones, pero el amor cubre todas las faltas.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 21,
+    "versiculo": 21,
+    "texto": "El que va tras la justicia y el amor halla vida, justicia y honra.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Lamentaciones",
+    "capitulo": 3,
+    "versiculo": "22-23",
+    "texto": "Por el gran amor del Señor no hemos sido consumidos y su compasión jamás se agota. Cada mañana se renuevan sus bondades; ¡muy grande es su fidelidad!",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 8,
+    "versiculo": "38-39",
+    "texto": "Pues estoy convencido de que ni la muerte ni la vida, ni los ángeles ni los demonios, ni lo presente ni lo por venir, ni los poderes, ni lo alto ni lo profundo, ni cosa alguna en toda la creación podrá apartarnos del amor que Dios nos ha manifestado en Cristo Jesús nuestro Señor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Corintios",
+    "capitulo": 13,
+    "versiculo": "6-7",
+    "texto": "El amor no se deleita en la maldad, sino que se regocija con la verdad. Todo lo disculpa, todo lo cree, todo lo espera, todo lo soporta.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Marcos",
+    "capitulo": 12,
+    "versiculo": 30,
+    "texto": "Ama al Señor tu Dios con todo tu corazón, con toda tu alma, con toda tu mente y con todas tus fuerzas.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Judas",
+    "capitulo": 1,
+    "versiculo": 2,
+    "texto": "Reciban misericordia, paz y amor en abundancia.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Marcos",
+    "capitulo": 12,
+    "versiculo": 31,
+    "texto": "El segundo es: “Ama a tu prójimo como a ti mismo”. No hay otro mandamiento más importante que estos.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Corintios",
+    "capitulo": 10,
+    "versiculo": 24,
+    "texto": "Que nadie busque sus propios intereses, sino los del prójimo.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 116,
+    "versiculo": "1-2",
+    "texto": "Yo amo al Señor porque él escucha mi voz de súplica. Por cuanto él inclina a mí su oído, lo invocaré toda mi vida.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 4,
+    "versiculo": 15,
+    "texto": "Más bien, al vivir la verdad con amor, creceremos hasta ser en todo como aquel que es la cabeza, es decir, Cristo.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Corintios",
+    "capitulo": 13,
+    "versiculo": 1,
+    "texto": "Si hablo en lenguas humanas y angelicales, pero no tengo amor, no soy más que un metal que resuena o un platillo que hace ruido.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
@@ -103,196 +373,610 @@
     "capitulo": 5,
     "versiculo": "22-23",
     "texto": "En cambio, el fruto del Espíritu es amor, alegría, paz, paciencia, amabilidad, bondad, fidelidad, humildad y dominio propio. No hay ley que condene estas cosas.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Proverbios",
-    "capitulo": 15,
-    "versiculo": 23,
-    "texto": "Es muy grato dar la respuesta adecuada y, cuando es oportuna, aún es más grato.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 32,
-    "versiculo": 7,
-    "texto": "Tú eres mi refugio; tú me protegerás del peligro y me rodearás con cánticos de liberación. Selah.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "2 Corintios",
-    "capitulo": 9,
-    "versiculo": 7,
-    "texto": "Cada uno debe dar según lo que haya decidido en su corazón, no de mala gana ni por obligación, porque Dios ama al que da con alegría.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Proverbios",
-    "capitulo": 17,
-    "versiculo": 22,
-    "texto": "El corazón alegre es un buen remedio, pero el ánimo decaído seca los huesos.",
-    "emocion": "Gozo/Alegría",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Romanos",
-    "capitulo": 12,
-    "versiculo": 15,
-    "texto": "Alégrense con los que están alegres; lloren con los que lloran.",
-    "emocion": "Gozo/Alegría",
+    "capitulo": 13,
+    "versiculo": 10,
+    "texto": "El amor no perjudica al prójimo. Así que el amor es el cumplimiento de la Ley.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Salmo",
-    "capitulo": 119,
-    "versiculo": 111,
-    "texto": "Tus mandatos son mi herencia permanente; son la alegría de mi corazón.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "3 Juan",
+    "libro": "2 Timoteo",
     "capitulo": 1,
-    "versiculo": 4,
-    "texto": "Nada me produce más alegría que oír que mis hijos viven en la verdad.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Eclasiastés",
-    "capitulo": 7,
-    "versiculo": 14,
-    "texto": "Cuando te vengan buenos tiempos, disfrútalos; pero cuando te lleguen los malos, piensa que unos y otros son obra de Dios, y que nadie sabe con qué habrá de encontrarse después.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Eclasiastés",
-    "capitulo": 3,
-    "versiculo": "12-13",
-    "texto": "Yo sé que nada hay mejor para el hombre que alegrarse y hacer el bien mientras viva; y sé también que es un don de Dios que el hombre coma o beba y disfrute de todos sus afanes.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 119,
-    "versiculo": 14,
-    "texto": "Me regocijo en el camino de tus mandatos más que en todas las riquezas.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "2 Corintios",
-    "capitulo": 6,
-    "versiculo": 10,
-    "texto": "Aparentemente tristes, pero siempre alegres; pobres en apariencia, pero enriqueciendo a muchos; como si no tuviéramos nada, pero poseyéndolo todo.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Proverbios",
-    "capitulo": 23,
-    "versiculo": 24,
-    "texto": "El padre del justo experimenta gran regocijo; quien tiene un hijo sabio se deleita en él.",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Nehemías",
-    "capitulo": 8,
-    "versiculo": 10,
-    "texto": "Luego Nehemías añadió: «Ya pueden irse. Coman bien, tomen bebidas dulces y compartan su comida con quienes no tengan nada, porque este día ha sido consagrado a nuestro Señor. No estén tristes, pues el gozo del Señor es su fortaleza».",
-    "emocion": "Gozo/Alegría",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Eclasiastés",
-    "capitulo": 9,
     "versiculo": 7,
-    "texto": "¡Anda, come tu pan con gozo! ¡Bebe tu vino con corazón alegre, que Dios ya se ha agradado de tus obras!.",
-    "emocion": "Gozo/Alegría",
+    "texto": "Pues Dios no nos ha dado un espíritu de timidez, sino de poder, de amor y de dominio propio.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Mateo",
+    "capitulo": 5,
+    "versiculo": 44,
+    "texto": "Pero yo digo: Amen a sus enemigos y oren por quienes los persiguen.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Pedro",
+    "capitulo": 3,
+    "versiculo": "10-11",
+    "texto": "En efecto, «el que quiera amar la vida y gozar de días felices, que refrene su lengua de hablar el mal y sus labios de proferir engaños; que se aparte del mal y haga el bien; que busque la paz y la siga.»",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Timoteo",
+    "capitulo": 4,
+    "versiculo": 12,
+    "texto": "Que nadie te menosprecie por ser joven. Al contrario, que los creyentes vean en ti un ejemplo a seguir en la manera de hablar, en la conducta, en amor, fe y pureza.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 10,
+    "texto": "En esto consiste el amor: no en que nosotros hayamos amado a Dios, sino en que él nos amó y envió a su Hijo para que fuera ofrecido como sacrificio por el perdón de nuestros pecados.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 8,
+    "versiculo": 35,
+    "texto": "¿Quién nos apartará del amor de Cristo? ¿La tribulación o la angustia, la persecución, el hambre, la desnudez, el peligro o la espada?",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 19,
-    "versiculo": 8,
-    "texto": "Los preceptos del Señor son rectos: traen alegría al corazón. El mandamiento del Señor es claro: da luz a los ojos.",
-    "emocion": "Gozo/Alegría",
+    "capitulo": 63,
+    "versiculo": "3-4",
+    "texto": "Tu gran amor es mejor que la vida; por eso mis labios te alabarán. Te bendeciré mientras viva y alzando mis manos te invocaré.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Proverbios",
-    "capitulo": 23,
-    "versiculo": 15,
-    "texto": "Hijo mío, si tu corazón es sabio, también mi corazón se regocijará.",
-    "emocion": "Gozo/Alegría",
+    "libro": "Salmo",
+    "capitulo": 103,
+    "versiculo": 8,
+    "texto": "El Señor es compasivo y misericordioso, lento para la ira y grande en amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 30,
+    "versiculo": 5,
+    "texto": "Porque solo un instante dura su enojo, pero su buena voluntad, toda una vida. Si por la noche hay llanto, por la mañana habrá gritos de alegría.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 42,
+    "versiculo": 8,
+    "texto": "Esta es la oración al Dios de mi vida: que de día el Señor envíe su amor y de noche su canto me acompañe.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Pedro",
+    "capitulo": 1,
+    "versiculo": "5-7",
+    "texto": "Precisamente por eso, esfuércense por añadir a su fe, virtud; a su virtud, conocimiento; al conocimiento, dominio propio; al dominio propio, constancia; a la constancia, devoción a Dios; a la devoción a Dios, afecto fraternal; y al afecto fraternal, amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Levítico",
+    "capitulo": 19,
+    "versiculo": "17-18",
+    "texto": "No alimentes en tu corazón odios contra tu hermano, sino reprende con franqueza a tu prójimo para que no sufras las consecuencias de su pecado. No seas vengativo con tu prójimo ni le guardes rencor. Ama a tu prójimo como a ti mismo. Yo soy el Señor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Corintios",
+    "capitulo": 13,
+    "versiculo": 3,
+    "texto": "Si reparto entre los pobres todo lo que poseo, si entrego mi cuerpo para tener de qué presumir, pero no tengo amor, nada gano con eso.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Timoteo",
+    "capitulo": 6,
+    "versiculo": 11,
+    "texto": "Tú, en cambio, hombre de Dios, huye de todo eso y esmérate en seguir la justicia, la devoción, la fe, el amor, la constancia y la humildad.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 5,
+    "versiculo": 2,
+    "texto": "Y lleven una vida de amor, así como Cristo nos amó y se entregó por nosotros como ofrenda y sacrificio fragante para Dios.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 94,
+    "versiculo": 18,
+    "texto": "No bien decía: «Mis pies resbalan», cuando ya tu gran amor, Señor, venía en mi ayuda.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 11,
+    "texto": "Queridos hermanos, ya que Dios nos ha amado así, también nosotros debemos amarnos los unos a los otros.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 3,
+    "versiculo": 11,
+    "texto": "Este es el mensaje que han oído desde el principio: que nos amemos los unos a los otros.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Hebreos",
+    "capitulo": 13,
+    "versiculo": "1-2",
+    "texto": "Sigan amándose unos a otros fraternalmente. No se olviden de practicar la hospitalidad, pues gracias a ella algunos, sin saberlo, hospedaron ángeles.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 54,
+    "versiculo": 10,
+    "texto": "«Aunque cambien de lugar las montañas y se tambaleen las colinas, no cambiará mi fiel amor por ti ni vacilará mi pacto de paz», dice el Señor, que de ti se compadece.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 7,
+    "texto": "Queridos hermanos, amémonos los unos a los otros, porque el amor viene de Dios y todo el que ama ha nacido de él y lo conoce.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 57,
+    "versiculo": 10,
+    "texto": "Pues tu gran amor se eleva hasta los cielos y tu verdad llega hasta las nubes.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Lucas",
     "capitulo": 10,
-    "versiculo": 20,
-    "texto": "Sin embargo, no se alegren de que puedan someter a los espíritus, sino alégrense de que sus nombres están escritos en el cielo.",
-    "emocion": "Gozo/Alegría",
+    "versiculo": 27,
+    "texto": "Como respuesta el hombre citó: —“Ama al Señor tu Dios con todo tu corazón, con todo tu ser, con todas tus fuerzas y con toda tu mente”, y “Ama a tu prójimo como a ti mismo”.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 2,
+    "versiculo": 15,
+    "texto": "No amen al mundo ni nada de lo que hay en él. Si alguien ama al mundo, el amor del Padre no está en él.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 8,
+    "versiculo": 37,
+    "texto": "Sin embargo, en todo esto somos más que vencedores por medio de aquel que nos amó.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 13,
+    "versiculo": 34,
+    "texto": "Este mandamiento nuevo les doy: que se amen los unos a los otros. Así como yo los he amado, también ustedes deben amarse los unos a los otros.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 14,
+    "versiculo": 15,
+    "texto": "Si ustedes me aman, obedecerán mis mandamientos.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 86,
+    "versiculo": 5,
+    "texto": "Tú, Señor, eres bueno y perdonador; tu gran amor se derrama sobre todos los que te invocan.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 8,
+    "versiculo": 28,
+    "texto": "Ahora bien, sabemos que Dios dispone todas las cosas para el bien de quienes lo aman, los que han sido llamados de acuerdo con su propósito.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Gálatas",
+    "capitulo": 5,
+    "versiculo": 14,
+    "texto": "En efecto, toda la Ley se resume en un solo mandamiento: «Ama a tu prójimo como a ti mismo».",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 9,
+    "texto": "Así manifestó Dios su amor entre nosotros: en que envió a su Hijo único al mundo para que vivamos por medio de él.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 5,
+    "versiculo": 5,
+    "texto": "Y esta esperanza no nos defrauda, porque Dios ha derramado su amor en nuestro corazón por el Espíritu Santo que nos ha dado.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 13,
+    "versiculo": 35,
+    "texto": "De este modo todos sabrán que son mis discípulos, si se aman los unos a los otros.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Apocalipsis",
+    "capitulo": 3,
+    "versiculo": 19,
+    "texto": "Yo reprendo y disciplino a todos los que amo. Por lo tanto, sé fervoroso y arrepiéntete.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 14,
+    "versiculo": 21,
+    "texto": "¿Quién es el que me ama? El que hace suyos mis mandamientos y los obedece. Y al que me ama, mi Padre lo amará; y yo también lo amaré y me manifestaré a él.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 13,
+    "versiculo": 11,
+    "texto": "En fin, hermanos, alégrense, busquen su restauración, hagan caso de mi exhortación, sean de un mismo sentir, vivan en paz. Y el Dios de amor y de paz estará con ustedes.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Proverbios",
-    "capitulo": 12,
-    "versiculo": 20,
-    "texto": "En los que planean el mal habita el engaño, pero hay gozo para los que promueven la paz.",
-    "emocion": "Gozo/Alegría",
+    "capitulo": 3,
+    "versiculo": "11-12",
+    "texto": "Hijo mío, no desprecies la disciplina del Señor ni te ofendas por sus reprensiones. Porque el Señor disciplina a los que ama, como corrige un padre a su hijo querido.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Lucas",
-    "capitulo": 15,
-    "versiculo": 7,
-    "texto": "Les digo que así es también en el cielo: habrá más alegría por un solo pecador que se arrepienta que por noventa y nueve justos que no necesitan arrepentirse.",
-    "emocion": "Gozo/Alegría",
+    "libro": "Efesios",
+    "capitulo": 2,
+    "versiculo": "4-5",
+    "texto": "Pero Dios, que es rico en misericordia, por su gran amor por nosotros, nos dio vida con Cristo, aun cuando estábamos muertos en pecados. ¡Por gracia ustedes han sido salvados!",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Eclasiastés",
+    "libro": "1 Juan",
+    "capitulo": 3,
+    "versiculo": 16,
+    "texto": "En esto conocemos lo que es el amor: en que Jesucristo entregó su vida por nosotros. Así también nosotros debemos entregar la vida por nuestros hermanos.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Gálatas",
     "capitulo": 5,
-    "versiculo": 19,
-    "texto": "Además, a quien Dios concede abundancia y riquezas, también concede comer de ellas, así como tomar su parte y disfrutar de sus afanes, pues esto es don de Dios.",
-    "emocion": "Gozo/Alegría",
+    "versiculo": 13,
+    "texto": "Les hablo así, hermanos, porque ustedes han sido llamados a ser libres; pero no se valgan de esa libertad para dar rienda suelta a sus pasiones. Más bien sírvanse unos a otros con amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 33,
+    "versiculo": 5,
+    "texto": "El Señor ama la justicia y el derecho; llena está la tierra de su gran amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 13,
+    "versiculo": 9,
+    "texto": "Porque los mandamientos que dicen: «No cometas adulterio», «no mates», «no robes», «no codicies», y todos los demás mandamientos, se resumen en este precepto: «Ama a tu prójimo como a ti mismo».",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Colosenses",
+    "capitulo": 2,
+    "versiculo": 2,
+    "texto": "Quiero que lo sepan para que cobren ánimo, permanezcan unidos por amor, y tengan toda la riqueza que proviene de la convicción y del entendimiento. Así conocerán el misterio de Dios, es decir, a Cristo.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 13,
+    "versiculo": 14,
+    "texto": "Que la gracia del Señor Jesucristo, el amor de Dios y la comunión del Espíritu Santo sean con todos ustedes.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Mateo",
-    "capitulo": 13,
-    "versiculo": 44,
-    "texto": "El reino de los cielos es como un tesoro escondido en un campo. Cuando un hombre lo descubrió, lo volvió a esconder, y lleno de alegría fue y vendió todo lo que tenía y compró ese campo.",
-    "emocion": "Gozo/Alegría",
+    "capitulo": 22,
+    "versiculo": 39,
+    "texto": "El segundo se parece a este: “Ama a tu prójimo como a ti mismo”.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 14,
+    "versiculo": 23,
+    "texto": "Le contestó Jesús: —El que me ama obedecerá mi palabra y mi Padre lo amará; vendremos a él y haremos nuestra morada en él.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 3,
+    "versiculo": 17,
+    "texto": "Si alguien que posee bienes materiales ve que su hermano está pasando necesidad y no tiene compasión de él, ¿cómo se puede decir que el amor de Dios habita en él?",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Deuteronomio",
+    "capitulo": 6,
+    "versiculo": "4-5",
+    "texto": "Escucha, Israel: El Señor nuestro Dios es el único Señor. Ama al Señor tu Dios con todo tu corazón, con toda tu alma y con todas tus fuerzas.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 17,
+    "versiculo": 26,
+    "texto": "Yo les he dado a conocer tu nombre y seguiré haciéndolo, para que el amor con que me has amado esté en ellos y yo mismo esté en ellos.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 21,
+    "texto": "Y él nos ha dado este mandamiento: el que ama a Dios, ame también a su hermano.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 31,
+    "versiculo": 16,
+    "texto": "Haz resplandecer tu rostro sobre tu siervo; por tu gran amor, sálvame.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Judas",
+    "capitulo": 1,
+    "versiculo": "20-21",
+    "texto": "Pero ustedes, queridos hermanos, edificándose sobre la base de su santísima fe y orando en el Espíritu Santo, manténganse en el amor de Dios, mientras esperan que nuestro Señor Jesucristo, en su misericordia, los lleve a vida eterna.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 40,
+    "versiculo": 11,
+    "texto": "No me niegues, Señor, tu misericordia; que siempre me protejan tu amor y tu verdad.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 5,
+    "versiculo": "14-15",
+    "texto": "El amor de Cristo nos obliga, porque estamos convencidos de que uno murió por todos y por consiguiente todos murieron. Y él murió por todos, para que los que viven ya no vivan para sí, sino para el que murió por ellos y fue resucitado.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 3,
+    "versiculo": 16,
+    "texto": "Porque tanto amó Dios al mundo que dio a su Hijo único, para que todo el que cree en él no se pierda, sino que tenga vida eterna.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Tesalonicenses",
+    "capitulo": 1,
+    "versiculo": 3,
+    "texto": "Hermanos, siempre debemos dar gracias a Dios por ustedes, como es justo, porque su fe se acrecienta cada vez más y en cada uno de ustedes sigue abundando el amor hacia los otros.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 103,
+    "versiculo": 13,
+    "texto": "Tan compasivo es el Señor con los que le temen como lo es un padre con sus hijos.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 15,
+    "versiculo": 10,
+    "texto": "Si obedecen mis mandamientos, permanecerán en mi amor, así como yo he obedecido los mandamientos de mi Padre y permanezco en su amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Joel",
+    "capitulo": 2,
+    "versiculo": 13,
+    "texto": "Rásguense el corazón y no las vestiduras. Vuélvanse al Señor su Dios, porque él es misericordioso y compasivo, lento para la ira y lleno de amor, cambia de parecer y no castiga.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 115,
+    "versiculo": 1,
+    "texto": "La gloria, Señor, no es para nosotros; no es para nosotros, sino para tu nombre, por causa de tu gran amor y tu fidelidad.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 112,
+    "versiculo": 1,
+    "texto": "¡Aleluya! Dichoso el que teme al Señor, el que halla gran deleite en sus mandamientos.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Gálatas",
+    "capitulo": 5,
+    "versiculo": 6,
+    "texto": "En Cristo Jesús de nada sirve estar o no estar circuncidados; lo que vale es la fe que actúa mediante el amor.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 44,
+    "versiculo": 3,
+    "texto": "Porque no fue su espada la que conquistó la tierra ni fue su brazo el que les dio la victoria: fue tu brazo, tu mano derecha; fue la luz de tu rostro, porque tú los amabas.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Marcos",
+    "capitulo": 12,
+    "versiculo": 33,
+    "texto": "Amarlo con todo el corazón, con todo el entendimiento y con todas las fuerzas, y amar al prójimo como a uno mismo, es más importante que todos los holocaustos y sacrificios.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 62,
+    "versiculo": 12,
+    "texto": "Que tú, Señor, eres todo amor; que tú pagarás a cada uno según lo que merezcan sus obras.",
+    "emocion": "Amor/Afecto",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Timoteo",
+    "capitulo": 2,
+    "versiculo": 22,
+    "texto": "Huye de las malas pasiones de la juventud y esmérate en seguir la justicia, la fe, el amor y la paz, junto con los que invocan al Señor con un corazón limpio.",
+    "emocion": "Amor/Afecto",
     "categoria": "Positivos"
   }
 ]
