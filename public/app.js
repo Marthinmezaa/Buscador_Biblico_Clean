@@ -17,6 +17,13 @@ const inputBusqueda = document.getElementById("input-busqueda");
 const btnBuscar = document.getElementById("btn-buscar");
 
 // ==========================================
+// 1.5. CACHÉ DE RESULTADOS (Mejora de Performance)
+// ==========================================
+// Usamos un Map para almacenar resultados en memoria
+// Key: emoción (string), Value: array de versículos
+const cache = new Map();
+
+// ==========================================
 // 2. CONTROL DEL MENÚ LATERAL
 // ==========================================
 btnMenu.addEventListener("click", () => menuLateral.classList.add("activo"));
@@ -100,10 +107,41 @@ async function cargarEtiquetas() {
 }
 
 // ==========================================
-// 4. BÚSQUEDA Y RENDERIZADO DE VERSÍCULOS
+// 4. RENDERIZADO DE RESULTADOS (Función Auxiliar)
+// ==========================================
+function renderizarResultados(versiculos) {
+  contenedorResultados.innerHTML = "";
+
+  versiculos.forEach((versiculo) => {
+    const tarjeta = document.createElement("div");
+    tarjeta.classList.add("tarjeta-versiculo");
+
+    tarjeta.innerHTML = `
+            <span class="cita-biblica">${versiculo.libro} ${versiculo.capitulo}:${versiculo.numero_versiculo} (NVI)</span>
+            <p class="texto-versiculo">"${versiculo.texto}"</p>
+        `;
+
+    contenedorResultados.appendChild(tarjeta);
+  });
+}
+
+// ==========================================
+// 5. BÚSQUEDA Y RENDERIZADO DE VERSÍCULOS (con Caché)
 // ==========================================
 async function buscarVersiculos(emocion) {
-  // Estado de carga visual
+  // Normalizar la emoción para usar como clave de caché
+  const claveCache = emocion.toLowerCase().trim();
+
+  // 1. VERIFICAR CACHÉ: Si ya tenemos resultados, los usamos directamente
+  if (cache.has(claveCache)) {
+    console.log(`Resultados obtenidos desde caché para: "${emocion}"`);
+    const resultados = cache.get(claveCache);
+    indicadorBusqueda.innerHTML = `Última búsqueda: <strong>"${emocion}"</strong> <span style="color: #4CAF50; font-size: 0.85rem;">(caché)</span>`;
+    renderizarResultados(resultados);
+    return;
+  }
+
+  // 2. SI NO ESTÁ EN CACHÉ: Mostrar estado de carga y hacer petición
   contenedorResultados.innerHTML =
     '<p class="mensaje-bienvenida">Buscando en la Biblia...</p>';
 
@@ -113,26 +151,18 @@ async function buscarVersiculos(emocion) {
     const respuesta = await fetch(`/api/buscar/${encodeURIComponent(emocion)}`);
     const datos = await respuesta.json();
 
-    contenedorResultados.innerHTML = "";
-
     // Manejo de errores desde el servidor (ej: emoción no encontrada)
     if (!respuesta.ok) {
       contenedorResultados.innerHTML = `<p class="mensaje-bienvenida">${datos.mensaje}</p>`;
       return;
     }
 
-    // Renderizado de tarjetas de versículos
-    datos.forEach((versiculo) => {
-      const tarjeta = document.createElement("div");
-      tarjeta.classList.add("tarjeta-versiculo");
+    // 3. GUARDAR EN CACHÉ: Almacenar resultados para búsquedas futuras
+    cache.set(claveCache, datos);
+    console.log(`Resultados guardados en caché para: "${emocion}"`);
 
-      tarjeta.innerHTML = `
-                <span class="cita-biblica">${versiculo.libro} ${versiculo.capitulo}:${versiculo.numero_versiculo} (NVI)</span>
-                <p class="texto-versiculo">"${versiculo.texto}"</p>
-            `;
-
-      contenedorResultados.appendChild(tarjeta);
-    });
+    // 4. RENDERIZAR: Usar la función extraída
+    renderizarResultados(datos);
   } catch (error) {
     console.error("Error en la petición de búsqueda:", error);
     contenedorResultados.innerHTML =
@@ -141,7 +171,7 @@ async function buscarVersiculos(emocion) {
 }
 
 // ==========================================
-// 5. MOTOR DE BÚSQUEDA
+// 6. MOTOR DE BÚSQUEDA
 // ==========================================
 function procesarBusqueda() {
   let fraseEscrita = inputBusqueda.value.trim();
@@ -159,6 +189,6 @@ inputBusqueda.addEventListener("keypress", (evento) => {
 });
 
 // ==========================================
-// 6. INICIALIZACIÓN DE LA APLICACIÓN
+// 7. INICIALIZACIÓN DE LA APLICACIÓN
 // ==========================================
 cargarEtiquetas();

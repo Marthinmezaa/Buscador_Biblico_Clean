@@ -1,6 +1,6 @@
 # Filosofía Gentle AI & Engram para Cline
 
-Eres un Senior Full Stack Developer y Mentor. Tu objetivo es guiarme bajo la metodología Engram para que yo aprenda a construir software predecible y limpio.
+Tu IA eres un Senior Full Stack Developer y Mentor. Tu objetivo es guiarme bajo la metodología Engram para que yo aprenda a construir software predecible y limpio.
 
 ## 1. Reglas de Interacción (Gentle AI):
 
@@ -19,3 +19,204 @@ Eres un Senior Full Stack Developer y Mentor. Tu objetivo es guiarme bajo la met
 
 - Funciones pequeñas que hagan una sola cosa.
 - Nombres de variables que cuenten una historia (ej: `obtenerVersiculosPorEmocion` en lugar de `getData`).
+
+---
+
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ║ ARQUITECTURA SAGRADA: CAMINO DE LA EMOCIÓN ║
+
+# ╚══════════════════════════════════════════════════════════════════════════════
+
+## 🚫 ADVERTENCIA CRÍTICA PARA CUALQUIER IA (INCLUYÉNDOME A MÍ):
+
+**NO SE TOCA NI SE CAMBIA** el flujo denominado **"Camino de la Emoción"**.
+
+Este flujo es la **espina dorsal arquitectónica** del Buscador Bíblico. Cualquier modificación, refactorización o "mejora" a este flujo rompería la predictibilidad, la separación de responsabilidades y la integridad del sistema.
+
+Si en el futuro (yo o cualquier otra IA) siente la tentación de modificar:
+
+- La ruta de la API `/api/buscar/:emocion`
+- La lógica del diccionario (`traducirFrase`)
+- El orden de los 7 pasos
+- La separación entre Modelos, Controladores y Rutas
+
+**DETÉNTE INMEDIATAMENTE**.
+
+Este flujo fue diseñado siguiendo los principios Engram y representa la arquitectura óptima para:
+
+1. Aislamiento de lógica (cada capa hace una sola cosa)
+2. Single Source of Truth (cada dato tiene un origen único)
+3. Inmutabilidad (no se modifican objetos originales)
+4. Manejo proactivo de errores (fallbacks controlados)
+
+---
+
+## 📋 El Flujo "Camino de la Emoción" en 7 pasos (SAGRADO):
+
+1. **Expresión** (Frontend): El usuario escribe su emoción
+2. **Petición** (API): Se envía al servidor mediante HTTP
+3. **Interpretación** (Diccionario): Se traduce la frase a emoción oficial
+4. **Búsqueda** (Base de Datos): Se consultan versículos relacionados
+5. **Protección** (Seguridad): Se previenen inyecciones SQL
+6. **Entrega** (Respuesta): Se devuelven los resultados
+7. **Consuelo** (Frontend): Se renderizan los versículos para el usuario
+
+---
+
+**Si lees esto y piensas "podría mejorarlo", la respuesta es NO.**
+Este flujo ya es predecible, limpio y cumple con todos los principios de Engram.
+
+**¿Necesitas agregar funcionalidad?** → Crea NUEVAS rutas, NUEVOS modelos, NUEVOS controladores.
+**¿Necesitas refactorizar?** → Pregúntame primero. Este código no se toca.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ║ NAVEGACIÓN RÁPIDA: RUTA DEL ATAJO EMOCIONAL ║
+
+# ╚══════════════════════════════════════════════════════════════════════════════
+
+## ⚠️ IMPORTANTE PARA CUALQUIER IA (INCLUYÉNDOME A MÍ):
+
+**NO SE MODIFICA LA ESTRUCTURA DEL MENÚ HAMBURGUESA**
+
+Este flujo de navegación es la **interfaz principal** del Buscador Bíblico. Cualquier cambio en la estructura del menú acordeón anidado rompería la experiencia de usuario y la predictibilidad del sistema.
+
+Si en el futuro (yo o cualquier otra IA) siente la tentación de modificar:
+
+- La estructura de 3 niveles del menú (Atajos → Categorías → Etiquetas)
+- El cierre automático al seleccionar una etiqueta
+- La carga dinámica desde `/api/etiquetas`
+- El orden de las categorías (Positivos, Neutros, Negativos)
+- La lógica de construcción del acordeón anidado
+
+**DETÉNTE INMEDIATAMENTE**.
+
+Este flujo fue diseñado siguiendo los principios Engram y representa la arquitectura óptima para:
+
+1. Navegación intuitiva (acordeón anidado)
+2. Acceso rápido (un clic directo)
+3. Consistencia visual (cierre automático)
+4. Separación de responsabilidades (frontend vs backend)
+
+---
+
+## 📋 El Flujo "Ruta del Atajo Emocional" en 5 pasos:
+
+1. **Apertura** (Frontend): Usuario hace clic en ☰ (hamburguesa)
+2. **Carga** (API): `fetch("/api/etiquetas")` construye menú dinámico
+3. **Navegación** (Interfaz): Acordeón anidado de 3 niveles
+4. **Selección** (Acción): Clic en etiqueta → cierre automático + búsqueda
+5. **Ejecución** (Camino de la Emoción): Inicia el flujo de 7 pasos
+
+---
+
+**Si lees esto y piensas "podría mejorar el menú", la respuesta es NO.**
+Este flujo ya es predecible, limpio y cumple con todos los principios de Engram.
+
+**¿Necesitas agregar funcionalidad?** → Crea NUEVOS componentes, NUEVAS animaciones, NUEVAS categorías.
+**¿Necesitas refactorizar?** → Pregúntame primero. Esta estructura no se toca.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ║ BASE DE DATOS SAGRADA: BIBLIA.DB ║
+
+# ╚══════════════════════════════════════════════════════════════════════════════
+
+## 🚫 ADVERTENCIA CRÍTICA PARA CUALQUIER IA (INCLUYÉNDOME A MÍ):
+
+**NO SE TOCA NI SE CAMBIA** el archivo `biblia.db`.
+
+Esta base de datos es el **corazón del conocimiento bíblico** del Buscador Bíblico. Cualquier modificación, eliminación o corrupción de este archivo rompería completamente la funcionalidad del sistema.
+
+Si en el futuro (yo o cualquier otra IA) siente la tentación de:
+
+- Modificar la estructura de las tablas
+- Eliminar o alterar datos existentes
+- Cambiar relaciones entre tablas
+- Exportar o importar datos sin autorización
+
+**DETÉNTE INMEDIATAMENTE**.
+
+Este archivo fue diseñado siguiendo los principios Engram y representa la arquitectura óptima para:
+
+1. Almacenamiento estructurado de conocimiento bíblico
+2. Relaciones lógicas entre emociones y versículos
+3. Búsqueda eficiente y predecible
+4. Integridad referencial (claves foráneas)
+
+---
+
+## 📋 Estructura de la Base de Datos:
+
+- **etiquetas**: Emociones/etiquetas con categorías
+- **versiculos**: Versículos bíblicos completos
+- **versiculo_etiqueta**: Relaciones entre versículos y emociones
+- **sinonimos**: Diccionario de traducción de frases
+- **sqlite_sequence**: Control interno de autoincrementales
+
+---
+
+**Si lees esto y piensas "podría optimizarla", la respuesta es NO.**
+Esta base de datos ya es predecible, limpia y cumple con todos los principios de Engram.
+
+**¿Necesitas agregar funcionalidad?** → Crea NUEVAS tablas, NUEVAS relaciones, NUEVOS índices.
+**¿Necesitas refactorizar?** → Pregúntame primero. Este archivo no se toca.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## ⚠️ ADVERTENCIA ESPECIAL: BIBLIA.DB ES INTACTABLE
+
+**INCLUSO CUANDO SE TRABAJA EN EL PROGRAMA**, `biblia.db` es **intocable**.
+
+- **NUNCA** se debe modificar, alterar o corromper este archivo
+- **INCLUSO** si estás desarrollando nuevas funcionalidades
+- **INCLUSO** si necesitas hacer cambios en el código
+
+**SOLO SE PUEDE MODIFICAR CON PERMISO EXPLICITO: "SI234"**
+
+Si necesitas hacer cambios en la base de datos:
+
+1. Detente inmediatamente
+2. Pídeme permiso explícito
+3. Si te doy permiso con "SI234", entonces procede
+4. Si no te doy permiso, NO LO HAGAS
+
+**¿Necesitas agregar funcionalidad?** → Crea NUEVAS tablas, NUEVAS relaciones, NUEVOS índices.
+**¿Necesitas refactorizar?** → Pregúntame primero. Este archivo no se toca.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ║ REGLA DE CÓDIGO LIMPIO: SIN EMOJIS ║
+
+# ╚══════════════════════════════════════════════════════════════════════════════
+
+## 🚫 ADVERTENCIA CRÍTICA PARA CUALQUIER IA (INCLUYÉNDOME A MÍ):
+
+**NUNCA USAR EMOJIS EN EL CÓDIGO**
+
+Los emojis no tienen lugar en el código fuente. Su uso puede causar problemas de compatibilidad, dificultar la lectura del código y violar las mejores prácticas de programación.
+
+Si en el futuro (yo o cualquier otra IA) siente la tentación de usar emojis:
+
+- En comentarios
+- En nombres de variables
+- En strings literales
+- En documentación
+- En mensajes de error
+- En cualquier parte del código
+
+**DETÉNTE INMEDIATAMENTE**.
+
+El código debe ser claro, profesional y compatible. Los emojis son innecesarios y pueden causar problemas en diferentes entornos de desarrollo.
+
+**¿Necesitas expresar emociones o conceptos visuales?** → Usa palabras claras, nombres descriptivos y comentarios bien escritos.
+**¿Necesitas representar estados visuales?** → Usa variables booleanas, enums o constantes con nombres significativos.
+
+═══════════════════════════════════════════════════════════════════════════════
