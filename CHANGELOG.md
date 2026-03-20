@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.0.0...v1.0.1) (2026-03-20)
+
+
+### Bug Fixes
+
+* **seguridad:** resolver error 400 en rutas compuestas y blindar cont… ([e9dce31](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/e9dce31c4d4290dd924abbf4080b4abc5f5ffc6a))
+* **seguridad:** resolver error 400 en rutas compuestas y blindar contra ataques XSS ([2d8cf4e](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/2d8cf4e1dc637fc380dec68153bfc8be49365ff8))
+
 ## 1.0.0 (2026-03-19)
 
 
