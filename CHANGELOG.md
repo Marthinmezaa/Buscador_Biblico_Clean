@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.0.1...v1.0.2) (2026-03-20)
+
+
+### Performance Improvements
+
+* implementar TTL en cache frontend y Rate Limiting en backend ([d3d0fa5](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/d3d0fa5b6df741246896c1d69baba7b1b36afa2e))
+* implementar TTL en cache frontend y Rate Limiting en backend ([73c13ad](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/73c13add7e60dad1a51529c0fcc912d2bcc6601f))
+
 ## [1.0.1](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.0.0...v1.0.1) (2026-03-20)
 
 
