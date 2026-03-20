@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.0.2...v1.1.0) (2026-03-20)
+
+
+### Features
+
+* implementar health check, optimizacion de BD y accesibilidad ([2280304](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/2280304cb88d64931e50509768614480e3dc2013))
+* implementar health check, optimizacion de BD y accesibilidad ([45d98dc](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/45d98dce4dfcc7323b89e683d07c7f1d0bbafabc))
+
 ## [1.0.2](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.0.1...v1.0.2) (2026-03-20)
 
 
