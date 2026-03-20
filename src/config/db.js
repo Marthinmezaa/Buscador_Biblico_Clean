@@ -52,6 +52,14 @@ db.serialize(() => {
         emocion_oficial TEXT NOT NULL
         )`);
 
+  // INDICES DE OPTIMIZACION (Mejora de Performance para BD grande)
+  db.run(
+    `CREATE INDEX IF NOT EXISTS idx_etiquetas_nombre ON etiquetas(nombre)`,
+  );
+  db.run(
+    `CREATE INDEX IF NOT EXISTS idx_sinonimos_palabra ON sinonimos(palabra_clave)`,
+  );
+
   console.log("Estructura de tablas verificada y lista para operar.");
 });
 

@@ -19,7 +19,12 @@ app.use(express.json()); // Parsea los cuerpos de las peticiones a JSON
 app.use(express.static("public")); // Sirve los archivos del frontend (HTML, CSS, JS)
 
 // 4. RUTAS (Endpoints)
-// Ruta de comprobación de salud del servidor (Health Check)
+// Endpoint de Health Check (Util para monitoreo en la nube como Render)
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "ok", timestamp: new Date().toISOString() });
+});
+
+// Ruta de bienvenida en la raiz
 app.get("/", (req, res) => {
   res.json({
     mensaje: "Hola Usuario! El servidor del Buscador Biblico esta vivo.",

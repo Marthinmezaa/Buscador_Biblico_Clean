@@ -32,6 +32,13 @@ btnCerrarMenu.addEventListener("click", () =>
   menuLateral.classList.remove("activo"),
 );
 
+// Cerrar menu con la tecla Escape (Accesibilidad de teclado)
+document.addEventListener("keydown", (evento) => {
+  if (evento.key === "Escape" && menuLateral.classList.contains("activo")) {
+    menuLateral.classList.remove("activo");
+  }
+});
+
 // ==========================================
 // 3. CARGA DE MENÚ DINÁMICO (Acordeón Anidado)
 // ==========================================
