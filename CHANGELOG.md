@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.1.0...v1.1.1) (2026-03-20)
+
+
+### Bug Fixes
+
+* resolver error de undefined en frontend y mejorar mensaje de bac… ([e8b00f1](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/e8b00f1f23640a3bbd54465c7b0c2fedb88806a3))
+* resolver error de undefined en frontend y mejorar mensaje de backend ([9364ce4](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/9364ce4b12d253e77796b1463a9dd9f3b62087cf))
+
 ## [1.1.0](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.0.2...v1.1.0) (2026-03-20)
 
 
