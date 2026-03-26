@@ -1,7 +1,7 @@
 /**
- * SCRIPT QUIRÚRGICO: ENTRENAMIENTO DE IA (Versión 2.1)
+ * SCRIPT QUIRÚRGICO: ENTRENAMIENTO DE IA (Versión 2.2)
  * Reconstruye la tabla 'sinonimos'.
- * ¡Nueva emoción agregada: Paz / Serenidad!
+ * ¡Nueva emoción agregada: Esperanza!
  */
 
 const sqlite3 = require("sqlite3").verbose();
@@ -11,7 +11,7 @@ const rutaDB = path.join(__dirname, "../biblia.db");
 const db = new sqlite3.Database(rutaDB);
 
 console.log(
-  "Entrenando la Inteligencia Artificial (Cargando diccionario V2.1)...",
+  "Entrenando la Inteligencia Artificial (Cargando diccionario V2.2)...",
 );
 
 db.serialize(() => {
@@ -26,17 +26,25 @@ db.serialize(() => {
       tipo_match TEXT
   )`);
 
-  // 3. Inyectamos las traducciones (¡Ahora con Paz/Serenidad completa!)
+  // 3. Inyectamos las traducciones completas
   const sql = `INSERT INTO sinonimos (palabra_clave, emocion_oficial, intensidad, tipo_match) VALUES 
         -- Gozo / Alegría
         ('goz', 'Gozo/Alegría', 2, 'raiz'),
         ('alegr', 'Gozo/Alegría', 2, 'raiz'),
         
-        -- Paz / Serenidad (¡ACTUALIZADO!)
-        ('paz', 'Paz/Serenidad', 3, 'exacta'),
-        ('seren', 'Paz/Serenidad', 2, 'raiz'),
-        ('tranquil', 'Paz/Serenidad', 2, 'raiz'),
-        ('calm', 'Paz/Serenidad', 2, 'raiz'),
+        -- Paz / Serenidad
+        ('paz', 'Paz / Serenidad', 3, 'exacta'),
+        ('seren', 'Paz / Serenidad', 2, 'raiz'),
+        ('tranquil', 'Paz / Serenidad', 2, 'raiz'),
+        ('calm', 'Paz / Serenidad', 2, 'raiz'),
+        
+        -- Esperanza
+        ('esperanz', 'Esperanza', 3, 'raiz'),
+        ('fe', 'Esperanza', 3, 'exacta'),
+        ('confianz', 'Esperanza', 2, 'raiz'),
+        ('confiad', 'Esperanza', 2, 'raiz'),
+        ('ilusio', 'Esperanza', 2, 'raiz'),
+        ('optimis', 'Esperanza', 2, 'raiz'),
         
         -- Ansiedad / Preocupación
         ('ansios', 'Ansiedad/Preocupación', 2, 'raiz'),
@@ -82,7 +90,7 @@ db.serialize(() => {
       console.error("Error al poblar diccionario:", err.message);
     } else {
       console.log(
-        "¡Diccionario cargado con éxito! Se ha añadido 'Paz / Serenidad' correctamente.",
+        "¡Diccionario cargado con éxito! Se ha añadido 'Esperanza' y 'Fe'.",
       );
     }
 

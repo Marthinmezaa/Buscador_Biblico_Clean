@@ -1,352 +1,271 @@
 [
   {
-    "libro": "Números",
-    "capitulo": 6,
-    "versiculo": "24-26",
-    "texto": "El Señor te bendiga y te guarde; el Señor haga resplandecer su rostro sobre ti y te extienda su amor; el Señor mueva su rostro hacia ti y te conceda la paz.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Juan",
-    "capitulo": 16,
-    "versiculo": 33,
-    "texto": "Yo les he dicho estas cosas para que en mí hallen paz. En este mundo afrontarán aflicciones, pero ¡anímense! Yo he vencido al mundo.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Filipenses",
-    "capitulo": 4,
-    "versiculo": "6-7",
-    "texto": "No se preocupen por nada; más bien, en toda ocasión, con oración y ruego, presenten sus peticiones a Dios y denle gracias. Y la paz de Dios, que sobrepasa todo entendimiento, cuidará sus corazones y sus pensamientos en Cristo Jesús.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Juan",
-    "capitulo": 14,
-    "versiculo": 27,
-    "texto": "La paz les dejo; mi paz les doy. Yo no se la doy a ustedes como la da el mundo. No se angustien ni se acobarden.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "2 Tesalonicenses",
-    "capitulo": 3,
-    "versiculo": 16,
-    "texto": "Que el Señor de paz les conceda su paz siempre y en todas las circunstancias. El Señor sea con todos ustedes.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Mateo",
-    "capitulo": 5,
-    "versiculo": 9,
-    "texto": "Dichosos los que trabajan por la paz, porque serán llamados hijos de Dios.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Pedro",
-    "capitulo": 3,
-    "versiculo": "10-11",
-    "texto": "En efecto, «el que quiera amar la vida y gozar de días felices, que refrene su lengua de hablar el mal y sus labios de proferir engaños; que se aparte del mal y haga el bien; que busque la paz y la siga.»",
-    "emocion": "Paz/Serenidad",
+    "libro": "Jeremías",
+    "capitulo": 29,
+    "versiculo": 11,
+    "texto": "Porque yo conozco los planes que tengo para ustedes —afirma el Señor—, planes de bienestar y no de calamidad, a fin de darles un futuro y una esperanza.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 4,
-    "versiculo": 8,
-    "texto": "En paz me acuesto y me duermo, porque solo tú, Señor, me haces vivir confiado.",
-    "emocion": "Paz/Serenidad",
+    "capitulo": 42,
+    "versiculo": 11,
+    "texto": "¿Por qué estás tan abatida, alma mía? ¿Por qué estás angustiada? En Dios pondré mi esperanza y lo seguiré alabando. ¡Él es mi salvación y mi Dios!",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Isaías",
-    "capitulo": 26,
-    "versiculo": 3,
-    "texto": "Al de carácter firme lo guardarás en perfecta paz, porque en ti confía.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Colosenses",
-    "capitulo": 3,
-    "versiculo": 15,
-    "texto": "Que gobierne en sus corazones la paz de Cristo, a la cual fueron llamados en un solo cuerpo. Y sean agradecidos.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Judas",
-    "capitulo": 1,
-    "versiculo": 2,
-    "texto": "Reciban misericordia, paz y amor en abundancia.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Colosenses",
-    "capitulo": 3,
-    "versiculo": 13,
-    "texto": "De modo que se toleren unos a otros y se perdonen si alguno tiene queja contra otro. Así como el Señor los perdonó, perdonen también ustedes.",
-    "emocion": "Paz/Serenidad",
+    "capitulo": 40,
+    "versiculo": 31,
+    "texto": "Pero los que confían en el Señor renovarán sus fuerzas; levantarán el vuelo como las águilas, correrán y no se fatigarán, caminarán y no se cansarán.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 34,
-    "versiculo": 14,
-    "texto": "Que se aparte del mal y haga el bien; que busque la paz y la siga.",
-    "emocion": "Paz/Serenidad",
+    "capitulo": 121,
+    "versiculo": "7-8",
+    "texto": "El Señor te cuidará; de todo mal guardará tu vida. El Señor cuidará tu salida y tu entrada, desde ahora y para siempre.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Santiago",
-    "capitulo": 3,
-    "versiculo": 18,
-    "texto": "En fin, el fruto de la justicia se siembra en paz para los que hacen la paz.",
-    "emocion": "Paz/Serenidad",
+    "libro": "Romanos",
+    "capitulo": 15,
+    "versiculo": 13,
+    "texto": "Que el Dios de la esperanza los llene de toda alegría y paz a ustedes que creen en él, para que rebosen de esperanza por el poder del Espíritu Santo.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Mateo",
+    "capitulo": 11,
+    "versiculo": 28,
+    "texto": "Vengan a mí todos ustedes que están cansados y agobiados; yo les daré descanso.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 5,
+    "versiculo": "3-4",
+    "texto": "Y no solo en esto, sino también en nuestros sufrimientos, porque sabemos que el sufrimiento produce perseverancia; la perseverancia, entereza de carácter; la entereza de carácter, esperanza.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Hebreos",
-    "capitulo": 12,
-    "versiculo": 14,
-    "texto": "Busquen la paz con todos y la santidad, sin la cual nadie verá al Señor.",
-    "emocion": "Paz/Serenidad",
+    "capitulo": 11,
+    "versiculo": 1,
+    "texto": "Ahora bien, la fe es tener confianza en lo que esperamos, es tener certeza de lo que no vemos.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Efesios",
-    "capitulo": 4,
-    "versiculo": 3,
-    "texto": "Esfuércense por mantener la unidad del Espíritu mediante el vínculo de la paz.",
-    "emocion": "Paz/Serenidad",
+    "libro": "1 Corintios",
+    "capitulo": 13,
+    "versiculo": 13,
+    "texto": "Ahora, pues, permanecen la fe, la esperanza y el amor. Pero el amor es el más importante.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
     "capitulo": 119,
-    "versiculo": 165,
-    "texto": "Los que aman tu Ley disfrutan de gran paz y nada los hace tropezar.",
-    "emocion": "Paz/Serenidad",
+    "versiculo": 114,
+    "texto": "Tú eres mi escondite y mi escudo; en tu palabra he puesto mi esperanza.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Santiago",
-    "capitulo": 3,
-    "versiculo": 17,
-    "texto": "En cambio, la sabiduría que desciende del cielo es ante todo pura y además pacífica, respetuosa, dócil, llena de compasión y de buenos frutos, imparcial y sincera.",
-    "emocion": "Paz/Serenidad",
+    "libro": "Hebreos",
+    "capitulo": 10,
+    "versiculo": 23,
+    "texto": "Mantengamos firme la esperanza que profesamos, porque fiel es el que hizo la promesa.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 29,
-    "versiculo": 11,
-    "texto": "El Señor fortalece a su pueblo; el Señor bendice a su pueblo con la paz.",
-    "emocion": "Paz/Serenidad",
+    "capitulo": 31,
+    "versiculo": 24,
+    "texto": "Cobren ánimo y ármense de valor, todos los que en el Señor esperan.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Miqueas",
+    "capitulo": 7,
+    "versiculo": 7,
+    "texto": "Pero yo he puesto mi esperanza en el Señor; yo espero en el Dios de mi salvación. ¡Mi Dios me escuchará!",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Romanos",
     "capitulo": 8,
-    "versiculo": 6,
-    "texto": "La mente gobernada por la carne es muerte, mientras que la mente que proviene del Espíritu es vida y paz.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Filipenses",
-    "capitulo": 4,
-    "versiculo": 9,
-    "texto": "Pongan en práctica lo que de mí han aprendido, recibido y oído, además de lo que han visto en mí y el Dios de paz estará con ustedes.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 46,
-    "versiculo": 10,
-    "texto": "Quédense quietos, reconozcan que yo soy Dios. ¡Seré exaltado entre las naciones! ¡Seré enaltecido en la tierra!",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Isaías",
-    "capitulo": 52,
-    "versiculo": 7,
-    "texto": "Qué hermosos son, sobre los montes, los pies del que trae buenas noticias, del que proclama la paz, del que anuncia buenas noticias, del que proclama la salvación, del que dice a Sión: «¡Tu Dios reina!».",
-    "emocion": "Paz/Serenidad",
+    "versiculo": 25,
+    "texto": "Pero si esperamos lo que todavía no vemos, en la espera mostramos nuestra constancia.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Proverbios",
-    "capitulo": 20,
-    "versiculo": 3,
-    "texto": "Honroso es al hombre evitar la contienda, pero no hay necio que no inicie un pleito.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Hebreos",
-    "capitulo": 12,
-    "versiculo": 11,
-    "texto": "Ciertamente, ninguna disciplina, en el momento de recibirla, parece agradable, sino más bien dolorosa; sin embargo, después produce una cosecha de justicia y paz para quienes han sido entrenados por ella.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Romanos",
-    "capitulo": 12,
-    "versiculo": 18,
-    "texto": "Si es posible, y en cuanto dependa de ustedes, vivan en paz con todos.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "2 Corintios",
     "capitulo": 13,
-    "versiculo": 11,
-    "texto": "En fin, hermanos, alégrense, busquen su restauración, hagan caso de mi exhortación, sean de un mismo sentir, vivan en paz. Y el Dios de amor y de paz estará con ustedes.",
-    "emocion": "Paz/Serenidad",
+    "versiculo": 12,
+    "texto": "La esperanza que se demora aflige al corazón; el deseo cumplido es un árbol de vida.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Isaías",
-    "capitulo": 54,
-    "versiculo": 10,
-    "texto": "«Aunque cambien de lugar las montañas y se tambaleen las colinas, no cambiará mi fiel amor por ti ni vacilará mi pacto de paz», dice el Señor, que de ti se compadece.",
-    "emocion": "Paz/Serenidad",
+    "libro": "Lamentaciones",
+    "capitulo": 3,
+    "versiculo": 24,
+    "texto": "Me digo a mí mismo: «El Señor es mi herencia. ¡En él esperaré!».",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 25,
+    "versiculo": 5,
+    "texto": "Encamíname en tu verdad. Y enséñame, porque tú eres mi Dios y mi salvación. ¡En ti pongo mi esperanza todo el día!",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Romanos",
     "capitulo": 5,
-    "versiculo": 1,
-    "texto": "En consecuencia, ya que hemos sido justificados mediante la fe, tenemos paz con Dios por medio de nuestro Señor Jesucristo.",
-    "emocion": "Paz/Serenidad",
+    "versiculo": 5,
+    "texto": "Y esta esperanza no nos defrauda, porque Dios ha derramado su amor en nuestro corazón por el Espíritu Santo que nos ha dado.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Proverbios",
-    "capitulo": 12,
-    "versiculo": 20,
-    "texto": "En los que planean el mal habita el engaño, pero hay gozo para los que promueven la paz.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Romanos",
-    "capitulo": 1,
-    "versiculo": "7b",
-    "texto": "Que Dios nuestro Padre y el Señor Jesucristo les concedan gracia y paz.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Proverbios",
-    "capitulo": 3,
-    "versiculo": "1-2",
-    "texto": "Hijo mío, no te olvides de mis enseñanzas; más bien, guarda en tu corazón mis mandamientos. Porque prolongarán tu vida muchos años y te traerán paz.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Juan",
-    "capitulo": 20,
-    "versiculo": 21,
-    "texto": "¡La paz sea con ustedes! —repitió Jesús—. Como el Padre me envió a mí, así yo los envío a ustedes.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Lucas",
-    "capitulo": 2,
-    "versiculo": 14,
-    "texto": "Gloria a Dios en las alturas, y en la tierra paz a los que gozan de su buena voluntad.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Hebreos",
-    "capitulo": 13,
-    "versiculo": "20-21",
-    "texto": "El Dios de paz levantó de entre los muertos al gran Pastor de las ovejas, a nuestro Señor Jesús, por la sangre del pacto eterno. Que él los capacite en todo lo bueno para hacer su voluntad. Y que, por medio de Jesucristo, Dios cumpla en nosotros lo que le agrada. A él sea la gloria por siempre jamás. Amén.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Romanos",
-    "capitulo": 16,
-    "versiculo": 20,
-    "texto": "El Dios de paz aplastará muy pronto a Satanás bajo los pies de ustedes. Que la gracia de nuestro Señor Jesús sea con ustedes.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Hechos",
-    "capitulo": 9,
-    "versiculo": 31,
-    "texto": "Mientras tanto, la iglesia disfrutaba de paz a la vez que se consolidaba en toda Judea, Galilea y Samaria, pues vivía en el temor del Señor e iba creciendo en número, fortalecida por el Espíritu Santo.",
-    "emocion": "Paz/Serenidad",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "2 Timoteo",
-    "capitulo": 2,
+    "libro": "Salmo",
+    "capitulo": 33,
     "versiculo": 22,
-    "texto": "Huye de las malas pasiones de la juventud y esmérate en seguir la justicia, la fe, el amor y la paz, junto con los que invocan al Señor con un corazón limpio.",
-    "emocion": "Paz/Serenidad",
+    "texto": "Que tu gran amor, Señor, nos acompañe, tal como lo esperamos de ti.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 130,
+    "versiculo": 5,
+    "texto": "Espero al Señor, lo espero con toda el alma; en su palabra he puesto mi esperanza.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Pedro",
+    "capitulo": 1,
+    "versiculo": 3,
+    "texto": "¡Bendito sea Dios, Padre de nuestro Señor Jesucristo! Por su gran misericordia, nos ha hecho nacer de nuevo mediante la resurrección de Jesucristo de entre los muertos, para que tengamos una esperanza viva.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 61,
+    "versiculo": 1,
+    "texto": "El Espíritu del Señor y Dios está sobre mí, por cuanto me ha ungido para anunciar buenas noticias a los pobres. Me ha enviado a sanar los corazones heridos, a proclamar libertad a los cautivos y la liberación de los prisioneros.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Pedro",
+    "capitulo": 3,
+    "versiculo": 15,
+    "texto": "Más bien, honren en su corazón a Cristo como Señor. Estén siempre preparados para responder a todo el que pida razón de la esperanza que hay en ustedes. Pero háganlo con gentileza y respeto.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Efesios",
-    "capitulo": 6,
-    "versiculo": "14-16",
-    "texto": "Manténganse firmes, ceñidos con el cinturón de la verdad, protegidos por la coraza de justicia y calzados con la disposición de proclamar el evangelio de la paz. Además de todo esto, tomen el escudo de la fe, con el cual pueden apagar todas las flechas encendidas del maligno.",
-    "emocion": "Paz/Serenidad",
+    "capitulo": 4,
+    "versiculo": 4,
+    "texto": "Hay un solo cuerpo y un solo Espíritu, así como también fueron llamados a una sola esperanza.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Colosenses",
+    "capitulo": 1,
+    "versiculo": 27,
+    "texto": "A estos Dios se propuso dar a conocer cuál es la gloriosa riqueza de este misterio entre las naciones, que es Cristo en ustedes, la esperanza de gloria.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 24,
+    "versiculo": 14,
+    "texto": "Ten en cuenta que así es la sabiduría a tu alma; si das con ella, tendrás buen futuro; tendrás una esperanza que no será destruida.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 1,
+    "versiculo": 18,
+    "texto": "Pido también que les sean iluminados los ojos del corazón para que sepan a qué esperanza él los ha llamado, cuál es la riqueza de su gloriosa herencia entre pueblo santo.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "1 Corintios",
+    "capitulo": 13,
+    "versiculo": "6-7",
+    "texto": "El amor no se deleita en la maldad, sino que se regocija con la verdad. Todo lo disculpa, todo lo cree, todo lo espera, todo lo soporta.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 62,
+    "versiculo": 5,
+    "texto": "Solo en Dios halla descanso mi alma; de él viene mi esperanza.",
+    "emocion": "Esperanza",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 15,
+    "versiculo": 4,
+    "texto": "De hecho, todo lo que se escribió en el pasado se escribió para enseñarnos, a fin de que alentados por las Escrituras, perseveremos en mantener nuestra esperanza.",
+    "emocion": "Esperanza",
     "categoria": "Positivos"
   }
 ]
