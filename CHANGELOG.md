@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.1.1...v1.2.0) (2026-03-26)
+
+
+### Features
+
+* agregar versiculos y entrenamiento para la emocion esperanza ([d2d4770](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/d2d4770a37a328f40780897cdd6defffe91b8ee9))
+* agregar versiculos y entrenamiento para la emocion esperanza ([76d717c](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/commit/76d717c7d17b0f53d2af5ad94a2e5be7f2d614df))
+
 ## [1.1.1](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.1.0...v1.1.1) (2026-03-20)
 
 
