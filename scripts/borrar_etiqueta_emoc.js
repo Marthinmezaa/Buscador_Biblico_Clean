@@ -18,7 +18,7 @@ const db = new sqlite3.Database(rutaDB);
 // Define el nombre exacto de la etiqueta que quieres eliminar.
 // Nota: Asegúrate de incluir el "#" si lo guardas así en la BD.
 // =========================================================
-const etiquetaABorrar = "Pazzz";
+const etiquetaABorrar = "Compasion/Misericordia";
 
 console.log(
   `\nIniciando proceso de limpieza para la etiqueta: "${etiquetaABorrar}"...`,

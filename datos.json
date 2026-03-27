@@ -1,505 +1,244 @@
 [
   {
-    "libro": "Proverbios",
-    "capitulo": 3,
-    "versiculo": "5-6",
-    "texto": "Confía en el Señor de todo corazón y no te apoyes en tu propia inteligencia. Reconócelo en todos tus caminos y él enderezará tus sendas.",
-    "emocion": "Confianza/Fe",
+    "libro": "Hebreos",
+    "capitulo": 4,
+    "versiculo": 16,
+    "texto": "Así que acerquémonos confiadamente al trono de la gracia para recibir la misericordia y encontrar la gracia que nos ayuden oportunamente.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Jeremías",
-    "capitulo": 17,
-    "versiculo": "7-8",
-    "texto": "Bendito el hombre que confía en el Señor y pone su confianza en él. Será como un árbol plantado junto al agua que extiende sus raíces hacia la corriente; no teme que llegue el calor y sus hojas están siempre verdes. En época de sequía no se angustia y nunca deja de dar fruto.",
-    "emocion": "Confianza/Fe",
+    "libro": "Mateo",
+    "capitulo": 9,
+    "versiculo": 13,
+    "texto": "Pero vayan y aprendan qué significa esto: “Lo que pido de ustedes es misericordia y no sacrificios”. Porque no he venido a llamar a justos, sino a pecadores.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 2,
+    "versiculo": "4-5",
+    "texto": "Pero Dios, que es rico en misericordia, por su gran amor por nosotros, nos dio vida con Cristo, aun cuando estábamos muertos en pecados. ¡Por gracia ustedes han sido salvados!",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 56,
-    "versiculo": 3,
-    "texto": "Cuando siento miedo, pongo en ti mi confianza.",
-    "emocion": "Confianza/Fe",
+    "capitulo": 51,
+    "versiculo": "1-2",
+    "texto": "Ten piedad de mí, oh Dios, conforme a tu gran amor; conforme a tu misericordia, borra mis transgresiones. Lávame de toda mi maldad y límpiame de mi pecado.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Proverbios",
-    "capitulo": 16,
-    "versiculo": 3,
-    "texto": "Pon en manos del Señor todas tus obras y tus proyectos se cumplirán.",
-    "emocion": "Confianza/Fe",
+    "libro": "2 Crónicas",
+    "capitulo": 30,
+    "versiculo": "9b",
+    "texto": "El Señor su Dios es misericordioso y compasivo. Si ustedes se vuelven a él, jamás los abandonará.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Miqueas",
+    "capitulo": 7,
+    "versiculo": 18,
+    "texto": "¿Qué Dios hay como tú, que perdone la maldad y pase por alto el delito del remanente de su heredad? No estarás airado para siempre, porque tu mayor placer es amar.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Isaías",
-    "capitulo": 43,
-    "versiculo": 2,
-    "texto": "Cuando cruces las aguas, yo estaré contigo; cuando cruces los ríos, no te cubrirán sus aguas; cuando camines por el fuego, no te quemarás ni te abrasarán las llamas.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 143,
-    "versiculo": 8,
-    "texto": "Por la mañana hazme saber de tu gran amor, porque en ti he puesto mi confianza. Señálame el camino que debo seguir, porque a ti elevo mi alma.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Juan",
-    "capitulo": 5,
-    "versiculo": 14,
-    "texto": "Esta es la confianza que tenemos al acercarnos a Dios: que, si pedimos cualquier cosa conforme a su voluntad, él nos oye.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 91,
-    "versiculo": "1-2",
-    "texto": "El que habita al abrigo del Altísimo descansará a la sombra del Todopoderoso. Yo digo al Señor: «Tú eres mi refugio, mi fortaleza, el Dios en quien confío».",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "2 Corintios",
-    "capitulo": 5,
-    "versiculo": 7,
-    "texto": "En efecto, vivimos por fe, no por vista.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Filipenses",
-    "capitulo": 4,
-    "versiculo": 19,
-    "texto": "Así que mi Dios les proveerá de todo lo que necesiten, conforme a las gloriosas riquezas que tiene en Cristo Jesús.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 62,
-    "versiculo": 7,
-    "texto": "Dios es mi salvación y mi gloria; es la roca que me fortalece; mi refugio está en Dios.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 121,
-    "versiculo": 3,
-    "texto": "No permitirá que tu pie resbale; jamás duerme el que te cuida.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Santiago",
-    "capitulo": 1,
-    "versiculo": 6,
-    "texto": "Pero que pida con fe, sin dudar, porque quien duda es como las olas del mar, agitadas y llevadas de un lado a otro por el viento.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 145,
+    "capitulo": 30,
     "versiculo": 18,
-    "texto": "El Señor está cerca de quienes lo invocan, de quienes lo invocan en verdad.",
-    "emocion": "Confianza/Fe",
+    "texto": "Por eso el Señor los espera, para tenerles piedad; por eso se levanta para mostrarles compasión. Porque el Señor es un Dios de justicia. ¡Dichosos todos los que en él esperan!",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Mateo",
     "capitulo": 6,
-    "versiculo": 26,
-    "texto": "Fíjense en las aves del cielo: no siembran ni cosechan, ni almacenan en graneros; sin embargo, el Padre celestial las alimenta. ¿No valen ustedes mucho más que ellas?",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Hebreos",
-    "capitulo": 13,
-    "versiculo": 6,
-    "texto": "Así que podemos decir con toda confianza: «El Señor es quien me ayuda, no tengo miedo; ¿qué me puede hacer un simple mortal?».",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Proverbios",
-    "capitulo": 29,
-    "versiculo": 25,
-    "texto": "Temer a los hombres resulta una trampa, pero el que confía en el Señor sale bien librado.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 37,
-    "versiculo": "5-6",
-    "texto": "Encomienda al Señor tu camino; confía en él y él actuará. Hará que tu justicia resplandezca como el alba; tu justa causa, como el sol de mediodía.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Proverbios",
-    "capitulo": 16,
-    "versiculo": 20,
-    "texto": "El que atiende a la palabra prospera. ¡Dichoso el que confía en el Señor!",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 73,
-    "versiculo": 25,
-    "texto": "¿A quién tengo en el cielo sino a ti? Si estoy contigo, ya nada quiero en la tierra.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Hebreos",
-    "capitulo": 13,
-    "versiculo": 5,
-    "texto": "Manténganse libres del amor al dinero y conténtense con lo que tienen, porque Dios ha dicho: «Nunca los dejaré; jamás los abandonaré».",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 27,
     "versiculo": 14,
-    "texto": "Pon tu esperanza en el Señor; cobra ánimo y ármate de valor, ¡pon tu esperanza en el Señor!",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Nahúm",
-    "capitulo": 1,
-    "versiculo": 7,
-    "texto": "Bueno es el Señor; es refugio en el día de la angustia y conoce a los que en él confían.",
-    "emocion": "Confianza/Fe",
+    "texto": "Porque si perdonan a otros sus ofensas, también los perdonará a ustedes su Padre celestial.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 37,
-    "versiculo": 3,
-    "texto": "Confía en el Señor y haz el bien; establécete en la tierra y mantente fiel.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Juan",
-    "capitulo": 4,
-    "versiculo": 16,
-    "texto": "Y nosotros hemos llegado a saber y creer que Dios nos ama. Dios es amor. El que permanece en amor, en Dios permanece y Dios en él.",
-    "emocion": "Confianza/Fe",
+    "capitulo": 25,
+    "versiculo": "6-7",
+    "texto": "Acuérdate, Señor, de tu misericordia y gran amor, que siempre me has mostrado. Olvida los pecados y las transgresiones que cometí en mi juventud. Acuérdate de mí según tu gran amor, porque tú, Señor, eres bueno.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 31,
-    "versiculo": 19,
-    "texto": "¡Cuán grande es tu bondad! La reservas para los que te temen, y a la vista de la gente la derramas sobre los que en ti se refugian.",
-    "emocion": "Confianza/Fe",
+    "capitulo": 40,
+    "versiculo": 11,
+    "texto": "No me niegues, Señor, tu misericordia; que siempre me protejan tu amor y tu verdad.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
-    "libro": "Salmo",
-    "capitulo": 56,
-    "versiculo": 4,
-    "texto": "Confío en Dios y alabo su palabra; confío en Dios y no siento miedo. ¿Qué puede hacerme un simple mortal?",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Juan",
-    "capitulo": 5,
-    "versiculo": 15,
-    "texto": "Y si sabemos que Dios oye todas nuestras oraciones, podemos estar seguros de que ya tenemos lo que le hemos pedido.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Juan",
-    "capitulo": 4,
+    "libro": "Romanos",
+    "capitulo": 12,
     "versiculo": 1,
-    "texto": "Queridos hermanos, no crean a cualquier espíritu, sino sométanlo a prueba para ver si es de Dios, porque han salido por el mundo muchos falsos profetas.",
-    "emocion": "Confianza/Fe",
+    "texto": "Por lo tanto, hermanos, tomando en cuenta la misericordia de Dios, ruego que cada uno de ustedes, en adoración espiritual, ofrezca su cuerpo como sacrificio vivo, santo y agradable a Dios.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 118,
-    "versiculo": 8,
-    "texto": "Es mejor refugiarse en el Señor que confiar en el hombre.",
-    "emocion": "Confianza/Fe",
+    "capitulo": 23,
+    "versiculo": 6,
+    "texto": "Seguro estoy de que la bondad y el amor me seguirán todos los días de mi vida; y en la casa del Señor habitaré para siempre.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 28,
-    "versiculo": 7,
-    "texto": "El Señor es mi fuerza y mi escudo; mi corazón en él confía; de él recibo ayuda. Mi corazón salta de alegría, y con cánticos le daré gracias.",
-    "emocion": "Confianza/Fe",
+    "capitulo": 90,
+    "versiculo": 17,
+    "texto": "Que el favor del Señor nuestro Dios esté sobre nosotros. Confirma en nosotros la obra de nuestras manos; sí, confirma la obra de nuestras manos.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 6,
+    "versiculo": 15,
+    "texto": "Entonces, ¿qué? ¿Vamos a pecar porque no estamos ya bajo la Ley, sino bajo la gracia? ¡De ninguna manera!",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Nehemías",
+    "capitulo": 9,
+    "versiculo": 31,
+    "texto": "Sin embargo, es tal tu compasión que no los destruiste ni abandonaste, porque eres Dios misericordioso y compasivo.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 112,
+    "versiculo": 5,
+    "texto": "Bien le va al que presta con generosidad, y maneja sus negocios con justicia.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 130,
+    "versiculo": "1-2",
+    "texto": "A ti, Señor, elevo mi clamor desde lo más profundo de mi ser. Escucha, Señor, mi voz. Estén atentos tus oídos a mi voz suplicante.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 12,
+    "versiculo": 9,
+    "texto": "Pero él me dijo: «Te basta con mi gracia, pues mi poder se perfecciona en la debilidad». Por lo tanto, gustosamente presumiré más bien de mis debilidades, para que permanezca sobre mí el poder de Cristo.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Juan",
-    "capitulo": 14,
-    "versiculo": 1,
-    "texto": "No se angustien. Confíen en Dios y confíen también en mí.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Isaías",
-    "capitulo": 26,
-    "versiculo": 3,
-    "texto": "Al de carácter firme lo guardarás en perfecta paz, porque en ti confía.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 9,
-    "versiculo": 10,
-    "texto": "En ti confían los que conocen tu nombre, porque tú, Señor, jamás abandonas a los que te buscan.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 16,
-    "versiculo": 1,
-    "texto": "Protégeme, oh Dios, porque en ti busco refugio.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Juan",
     "capitulo": 3,
-    "versiculo": "21-22",
-    "texto": "Queridos hermanos, si el corazón no nos condena y tenemos confianza delante de Dios, recibimos todo lo que pedimos, porque obedecemos sus mandamientos y hacemos lo que le agrada.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Romanos",
-    "capitulo": 8,
-    "versiculo": 25,
-    "texto": "Pero si esperamos lo que todavía no vemos, en la espera mostramos nuestra constancia.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Filipenses",
-    "capitulo": 4,
-    "versiculo": 11,
-    "texto": "No digo esto porque esté necesitado, pues he aprendido a estar satisfecho en cualquier situación en que me encuentre.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 27,
-    "versiculo": 3,
-    "texto": "Aun cuando un ejército me asedie, no temerá mi corazón; aun cuando una guerra estalle contra mí, yo mantendré la confianza.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 13,
-    "versiculo": "5-6",
-    "texto": "Pero yo confío en tu gran amor; mi corazón se alegra en tu salvación. Cantaré salmos al Señor, porque ha sido bueno conmigo.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Mateo",
-    "capitulo": 17,
-    "versiculo": 20,
-    "texto": "Por la poca fe que tienen —respondió—. Les aseguro que si tuvieran fe tan pequeña como una semilla de mostaza, podrían decirle a esta montaña: “Trasládate de aquí para allá” y se trasladaría. Para ustedes nada sería imposible.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 33,
-    "versiculo": 22,
-    "texto": "Que tu gran amor, Señor, nos acompañe, tal como lo esperamos de ti.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Isaías",
-    "capitulo": 54,
-    "versiculo": 10,
-    "texto": "«Aunque cambien de lugar las montañas y se tambaleen las colinas, no cambiará mi fiel amor por ti ni vacilará mi pacto de paz», dice el Señor, que de ti se compadece.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Corintios",
-    "capitulo": 13,
-    "versiculo": "6-7",
-    "texto": "El amor no se deleita en la maldad, sino que se regocija con la verdad. Todo lo disculpa, todo lo cree, todo lo espera, todo lo soporta.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 37,
-    "versiculo": 23,
-    "texto": "El Señor afirma los pasos del hombre cuando le agrada su modo de vivir.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Marcos",
-    "capitulo": 11,
-    "versiculo": 23,
-    "texto": "Les aseguro que si alguno dice a este monte: “Quítate de ahí y tírate al mar”, creyendo, sin abrigar la menor duda en el corazón de que lo que dice sucederá, lo obtendrá.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 62,
-    "versiculo": 6,
-    "texto": "Solo él es mi roca y mi salvación; él es mi refugio, ¡no caeré!",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 27,
-    "versiculo": 13,
-    "texto": "Pero de una cosa estoy seguro: he de ver la bondad del Señor en esta tierra de los vivientes.",
-    "emocion": "Confianza/Fe",
+    "versiculo": 16,
+    "texto": "Porque tanto amó Dios al mundo que dio a su Hijo único, para que todo el que cree en él no se pierda, sino que tenga vida eterna.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Proverbios",
-    "capitulo": 3,
-    "versiculo": "31-32",
-    "texto": "No envidies a los violentos ni optes por andar en sus caminos. Porque el Señor aborrece al perverso, pero al íntegro le brinda su amistad.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Juan",
-    "capitulo": 2,
-    "versiculo": 28,
-    "texto": "Y ahora, queridos hijos, permanezcan en él para que, cuando se manifieste, podamos presentarnos ante él confiadamente, seguros de no ser avergonzados en su venida.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Hebreos",
-    "capitulo": 3,
-    "versiculo": 14,
-    "texto": "Hemos llegado a tener parte con Cristo, si en verdad mantenemos firme hasta el fin la confianza que tuvimos al principio.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Mateo",
-    "capitulo": 21,
-    "versiculo": 21,
-    "texto": "Les aseguro que si tienen fe y no dudan —respondió Jesús—, no solo harán lo que he hecho con la higuera, sino que podrán decir a este monte: “Quítate de ahí y tírate al mar”, y así se hará.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Hebreos",
-    "capitulo": 11,
-    "versiculo": 11,
-    "texto": "Por la fe incluso Sara, a pesar de su avanzada edad y de que era estéril, recibió fuerza para tener hijos, porque consideró fiel al que le había hecho la promesa.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Gálatas",
-    "capitulo": 3,
-    "versiculo": 22,
-    "texto": "Pero la Escritura declara que todo el mundo es prisionero del pecado, para que mediante la fe en Jesucristo lo prometido se les conceda a los que creen.",
-    "emocion": "Confianza/Fe",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "Salmo",
-    "capitulo": 20,
-    "versiculo": 7,
-    "texto": "Estos confían en sus carros de guerra, aquellos confían en sus corceles, pero nosotros confiamos en el nombre del Señor nuestro Dios.",
-    "emocion": "Confianza/Fe",
+    "capitulo": 28,
+    "versiculo": 13,
+    "texto": "Quien encubre su pecado jamás prospera; quien lo confiesa y lo deja, alcanza la misericordia.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   },
 
   {
     "libro": "Romanos",
+    "capitulo": 5,
+    "versiculo": 15,
+    "texto": "Pero el pecado de Adán no puede compararse con la gracia de Dios. Pues, si por el pecado de un solo hombre murieron todos, ¡cuánto más el don que vino por la gracia de un solo hombre, Jesucristo, abundó para todos!",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 55,
+    "versiculo": 7,
+    "texto": "Que abandone el malvado su camino y el perverso sus pensamientos. Que se vuelva al Señor, a nuestro Dios, que es generoso para perdonar y de él recibirá compasión.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Tito",
+    "capitulo": 3,
+    "versiculo": 5,
+    "texto": "Él nos salvó, no por nuestras propias obras de justicia, sino por su misericordia. Nos salvó mediante el lavamiento de la regeneración y de la renovación por el Espíritu Santo.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Mateo",
+    "capitulo": 18,
+    "versiculo": "21-22",
+    "texto": "Pedro se acercó a Jesús y preguntó: —Señor, ¿cuántas veces tengo que perdonar a mi hermano que peca contra mí? ¿Hasta siete veces? —No te digo que hasta siete veces, sino hasta setenta veces siete —contestó Jesús—.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "2 Corintios",
     "capitulo": 13,
-    "versiculo": 1,
-    "texto": "Todos deben someterse a las autoridades públicas, pues no hay autoridad que Dios no haya dispuesto, así que las que existen fueron establecidas por él.",
-    "emocion": "Confianza/Fe",
+    "versiculo": 14,
+    "texto": "Que la gracia del Señor Jesucristo, el amor de Dios y la comunión del Espíritu Santo sean con todos ustedes.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Jeremías",
+    "capitulo": 3,
+    "versiculo": 12,
+    "texto": "“¡Vuelve, apóstata Israel! No te miraré con ira”, afirma el Señor. “No te guardaré rencor para siempre, porque soy misericordioso”, afirma el Señor.",
+    "emocion": "Compasión/Misericordia",
+    "categoria": "Positivos"
+  },
+
+  {
+    "libro": "Filipenses",
+    "capitulo": 1,
+    "versiculo": 29,
+    "texto": "Porque a ustedes se les ha concedido no solo creer en Cristo, sino también sufrir por él.",
+    "emocion": "Compasión/Misericordia",
     "categoria": "Positivos"
   }
 ]

@@ -1,7 +1,7 @@
 /**
- * SCRIPT QUIRÚRGICO: ENTRENAMIENTO DE IA (Versión 2.4)
+ * SCRIPT QUIRÚRGICO: ENTRENAMIENTO DE IA (Versión 2.5)
  * Reconstruye la tabla 'sinonimos'.
- * ¡Categorías ajustadas y nueva emoción: Confianza / Fe!
+ * ¡Nueva emoción agregada: Compasión / Misericordia!
  */
 
 const sqlite3 = require("sqlite3").verbose();
@@ -11,7 +11,7 @@ const rutaDB = path.join(__dirname, "../biblia.db");
 const db = new sqlite3.Database(rutaDB);
 
 console.log(
-  "Entrenando la Inteligencia Artificial (Cargando diccionario V2.4)...",
+  "Entrenando la Inteligencia Artificial (Cargando diccionario V2.5)...",
 );
 
 db.serialize(() => {
@@ -26,7 +26,7 @@ db.serialize(() => {
       tipo_match TEXT
   )`);
 
-  // 3. Inyectamos las traducciones con la nueva estructura
+  // 3. Inyectamos las traducciones completas
   const sql = `INSERT INTO sinonimos (palabra_clave, emocion_oficial, intensidad, tipo_match) VALUES 
         -- Gozo / Alegría
         ('goz', 'Gozo/Alegría', 2, 'raiz'),
@@ -56,6 +56,13 @@ db.serialize(() => {
         ('agradec', 'Gratitud', 3, 'raiz'),
         ('gracias', 'Gratitud', 3, 'exacta'),
         ('gratitud', 'Gratitud', 3, 'raiz'),
+
+        -- Compasión / Misericordia
+        ('compasi', 'Compasión/Misericordia', 3, 'raiz'),
+        ('misericord', 'Compasión/Misericordia', 3, 'raiz'),
+        ('perdon', 'Compasión/Misericordia', 3, 'raiz'),
+        ('piedad', 'Compasión/Misericordia', 2, 'raiz'),
+        ('bondad', 'Compasión/Misericordia', 2, 'raiz'),
         
         -- Ansiedad / Preocupación
         ('ansios', 'Ansiedad/Preocupación', 2, 'raiz'),
@@ -101,7 +108,7 @@ db.serialize(() => {
       console.error("Error al poblar diccionario:", err.message);
     } else {
       console.log(
-        "¡Diccionario cargado con éxito! Categorías 'Esperanza' y 'Confianza/Fe' listas y separadas.",
+        "¡Diccionario cargado con éxito! Ahora tu IA entiende la 'Compasión' y el 'Perdón'.",
       );
     }
 

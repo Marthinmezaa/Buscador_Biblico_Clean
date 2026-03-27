@@ -17,7 +17,7 @@ const db = new sqlite3.Database(rutaDB);
 // PARÁMETROS DE BÚSQUEDA
 // Define la emoción/etiqueta cuyos versículos serán eliminados.
 // =========================================================
-const emocionABorrar = "Pazzz";
+const emocionABorrar = "Compasion/Misericordia";
 
 console.log(
   `\nIniciando proceso de eliminación masiva para la emoción: "${emocionABorrar}"...`,
