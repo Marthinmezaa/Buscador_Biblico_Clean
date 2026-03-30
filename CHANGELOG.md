@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.0](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.3.0...v1.4.0) (2026-03-30)
+
+
+### Features
+
+* agregar emocion valentia y optimizar motor de aleatoriedad ([d329c24](https://github.com/Marthinmezaa/Buscador_Biblico/commit/d329c2408ab598e3b65afe392dffa8de3c6cdcc5))
+* agregar emocion valentia y optimizar motor de aleatoriedad ([9768393](https://github.com/Marthinmezaa/Buscador_Biblico/commit/97683937ba100835bd63550b72bfc468974987ee))
+* agregar versiculos y entrenamiento para la emocion compasion y … ([1b7493d](https://github.com/Marthinmezaa/Buscador_Biblico/commit/1b7493de5e4e9493b0e89913c230e4099ca29dbe))
+* agregar versiculos y entrenamiento para la emocion compasion y misericordia ([503908b](https://github.com/Marthinmezaa/Buscador_Biblico/commit/503908b385c8ea1f1dd119e584e3a0d54a0496de))
+
 ## [1.3.0](https://github.com/Marthinmezaa/Buscador_Biblico_Clean/compare/v1.2.0...v1.3.0) (2026-03-27)
 
 
