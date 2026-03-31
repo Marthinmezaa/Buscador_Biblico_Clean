@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.4.0...v1.5.0) (2026-03-31)
+
+
+### Features
+
+* agregar versiculos y entrenamiento para la emocion frustracion ([fa08586](https://github.com/Marthinmezaa/Buscador_Biblico/commit/fa0858616d7d196340938a7f5e305ca5b1734fdc))
+* agregar versiculos y entrenamiento para la emocion frustracion ([315b06b](https://github.com/Marthinmezaa/Buscador_Biblico/commit/315b06bb7d403898cb2a3b6839b62c6c0c717ca2))
+
 ## [1.4.0](https://github.com/Marthinmezaa/Buscador_Biblico/compare/v1.3.0...v1.4.0) (2026-03-30)
 
 
