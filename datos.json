@@ -1,11 +1,47 @@
 [
   {
-    "libro": "Deuteronomio",
-    "capitulo": 31,
-    "versiculo": 8,
-    "texto": "El Señor mismo marchará al frente de ti y estará contigo; nunca te dejará ni te abandonará. No temas ni te desanimes.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "libro": "Filipenses",
+    "capitulo": 4,
+    "versiculo": 6,
+    "texto": "No se preocupen por nada; más bien, en toda ocasión, con oración y ruego, presenten sus peticiones a Dios y denle gracias.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 41,
+    "versiculo": 10,
+    "texto": "Así que no temas, porque yo estoy contigo; no te angusties, porque yo soy tu Dios. Te fortaleceré y te ayudaré; te sostendré con la diestra de mi justicia.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 34,
+    "versiculo": 17,
+    "texto": "Los justos claman, el Señor los oye y los libra de todas sus angustias.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 8,
+    "versiculo": 37,
+    "texto": "Sin embargo, en todo esto somos más que vencedores por medio de aquel que nos amó.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 4,
+    "versiculo": "8-9",
+    "texto": "Nos vemos atribulados en todo, pero no abatidos; perplejos, pero no desesperados; perseguidos, pero no abandonados; derribados, pero no destruidos.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   },
 
   {
@@ -13,53 +49,80 @@
     "capitulo": 1,
     "versiculo": 9,
     "texto": "Ya te lo he ordenado: ¡Sé fuerte y valiente! ¡No tengas miedo ni te desanimes! Porque el Señor tu Dios te acompañará dondequiera que vayas.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "2 Corintios",
-    "capitulo": 1,
-    "versiculo": "3-4",
-    "texto": "Bendito sea el Dios y Padre de nuestro Señor Jesucristo, Padre misericordioso y Dios de toda consolación, quien nos consuela en todas nuestras tribulaciones para que, con el mismo consuelo que de Dios hemos recibido, también nosotros podamos consolar a todos los que sufren.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
-  },
-
-  {
-    "libro": "1 Corintios",
-    "capitulo": 16,
-    "versiculo": 13,
-    "texto": "Manténganse alerta; permanezcan firmes en la fe; sean valientes y fuertes.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 31,
-    "versiculo": 24,
-    "texto": "Cobren ánimo y ármense de valor, todos los que en el Señor esperan.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "capitulo": 55,
+    "versiculo": 22,
+    "texto": "Entrégale tus afanes al Señor y él te sostendrá; no permitirá que el justo caiga y quede abatido para siempre.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Mateo",
+    "capitulo": 11,
+    "versiculo": "28-30",
+    "texto": "Vengan a mí todos ustedes que están cansados y agobiados; yo les daré descanso. Carguen con mi yugo y aprendan de mí, pues yo soy apacible y humilde de corazón, y encontrarán descanso para sus almas. Porque mi yugo es suave y mi carga es liviana.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 37,
+    "versiculo": 7,
+    "texto": "Guarda silencio ante el Señor y espera en él con paciencia; no te enojes ante el éxito de otros, de los que maquinan planes malvados.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "1 Pedro",
+    "capitulo": 5,
+    "versiculo": 7,
+    "texto": "Depositen en él toda ansiedad, porque él cuida de ustedes.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   },
 
   {
     "libro": "Juan",
-    "capitulo": 14,
-    "versiculo": 27,
-    "texto": "La paz les dejo; mi paz les doy. Yo no se la doy a ustedes como la da el mundo. No se angustien ni se acobarden.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "capitulo": 16,
+    "versiculo": 33,
+    "texto": "Yo les he dicho estas cosas para que en mí hallen paz. En este mundo afrontarán aflicciones, pero ¡anímense! Yo he vencido al mundo.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 23,
-    "versiculo": 4,
-    "texto": "Aun si voy por valles tenebrosos, no temeré ningún mal porque tú estás a mi lado; tu vara y tu bastón me reconfortan.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "capitulo": 94,
+    "versiculo": 19,
+    "texto": "Cuando en mí la angustia iba en aumento, tu consuelo llenaba mi alma de alegría.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 3,
+    "versiculo": "5-6",
+    "texto": "Confía en el Señor de todo corazón y no te apoyes en tu propia inteligencia. Reconócelo en todos tus caminos y él enderezará tus sendas.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 40,
+    "versiculo": 31,
+    "texto": "Pero los que confían en el Señor renovarán sus fuerzas; levantarán el vuelo como las águilas, correrán y no se fatigarán, caminarán y no se cansarán.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   },
 
   {
@@ -67,34 +130,322 @@
     "capitulo": 1,
     "versiculo": 7,
     "texto": "Pues Dios no nos ha dado un espíritu de timidez, sino de poder, de amor y de dominio propio.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 126,
+    "versiculo": 5,
+    "texto": "Los que con lágrimas siembran, con regocijo cosechan.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Hebreos",
+    "capitulo": 12,
+    "versiculo": "1-2",
+    "texto": "Por tanto, también nosotros que estamos rodeados de una nube tan grande de testigos, despojémonos de todo peso y del pecado que nos asedia y corramos con perseverancia la carrera que tenemos por delante. Fijemos la mirada en Jesús, el iniciador y perfeccionador de nuestra fe, quien por el gozo que le esperaba, soportó la cruz, menospreciando la vergüenza que ella significaba, y ahora está sentado a la derecha del trono de Dios.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Lamentaciones",
+    "capitulo": 3,
+    "versiculo": "22-23",
+    "texto": "Por el gran amor del Señor no hemos sido consumidos y su compasión jamás se agota. Cada mañana se renuevan sus bondades; ¡muy grande es su fidelidad!",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "1 Tesalonicenses",
+    "capitulo": 5,
+    "versiculo": "16-18",
+    "texto": "Estén siempre alegres, oren sin cesar, den gracias a Dios en toda situación, porque esta es su voluntad para ustedes en Cristo Jesús.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Santiago",
+    "capitulo": 1,
+    "versiculo": "2-4",
+    "texto": "Hermanos míos, considérense muy dichosos cuando tengan que enfrentarse con diversas pruebas, pues ya saben que la prueba de su fe produce perseverancia. Y la perseverancia debe llevar a feliz término la obra, para que sean perfectos e íntegros sin que les falte nada.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 30,
+    "versiculo": 5,
+    "texto": "Porque solo un instante dura su enojo, pero su buena voluntad, toda una vida. Si por la noche hay llanto, por la mañana habrá gritos de alegría.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 1,
+    "versiculo": "8-10",
+    "texto": "Hermanos, no queremos que desconozcan las aflicciones que sufrimos en la provincia de Asia. Estábamos tan agobiados bajo tanta presión que hasta perdimos la esperanza de salir con vida: nos sentíamos como sentenciados a muerte. Pero eso sucedió para que no confiáramos en nosotros mismos, sino en Dios, que resucita a los muertos. Él nos libró y nos librará de tal peligro de muerte. En él tenemos puesta nuestra esperanza y él seguirá librándonos.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 107,
+    "versiculo": 6,
+    "texto": "En su angustia clamaron al Señor y él los libró de sus aflicciones.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Sofonías",
+    "capitulo": 3,
+    "versiculo": 17,
+    "texto": "Porque el Señor tu Dios, está en medio de ti como poderoso guerrero que salva. Se deleitará en ti con gozo, te renovará con su amor, se alegrará por ti con cantos».",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Mateo",
+    "capitulo": 6,
+    "versiculo": 34,
+    "texto": "Por lo tanto, no se preocupen por el mañana, el cual tendrá sus propios afanes. Cada día tiene ya sus problemas.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Apocalipsis",
+    "capitulo": 21,
+    "versiculo": 4,
+    "texto": "Él enjugará toda lágrima de los ojos. Ya no habrá muerte ni llanto, tampoco lamento ni dolor, porque las primeras cosas han dejado de existir».",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 23,
+    "versiculo": 4,
+    "texto": "Aun si voy por valles tenebrosos, no temeré ningún mal porque tú estás a mi lado; tu vara y tu bastón me reconfortan.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   },
 
   {
     "libro": "Deuteronomio",
     "capitulo": 31,
     "versiculo": 6,
-    "texto": "Sean fuertes y valientes. No teman ni se asusten ante esas naciones, pues el Señor su Dios siempre los acompañará; nunca los dejará ni los abandonará.",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "texto": "Sean fuertes y valientes. No teman ni se asusten ante esas naciones, pues el Señor su Dios siempre los acompañará; nunca los dejará ni los abandonará».",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Efesios",
+    "capitulo": 6,
+    "versiculo": "10-11",
+    "texto": "Por último, fortalézcanse con el gran poder del Señor. Pónganse toda la armadura de Dios para que puedan hacer frente a las artimañas del diablo.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 43,
+    "versiculo": 2,
+    "texto": "Cuando cruces las aguas, yo estaré contigo; cuando cruces los ríos, no te cubrirán sus aguas; cuando camines por el fuego, no te quemarás ni te abrasarán las llamas.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "1 Corintios",
+    "capitulo": 10,
+    "versiculo": 13,
+    "texto": "Ustedes no han sufrido ninguna tentación que no sea común al género humano. Pero Dios es fiel y no permitirá que ustedes sean tentados más allá de lo que puedan aguantar. Más bien, cuando llegue la tentación, él les dará también una salida a fin de que puedan resistir.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Colosenses",
+    "capitulo": 3,
+    "versiculo": 15,
+    "texto": "Que gobierne en sus corazones la paz de Cristo, a la cual fueron llamados en un solo cuerpo. Y sean agradecidos.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   },
 
   {
     "libro": "Salmo",
-    "capitulo": 27,
-    "versiculo": 14,
-    "texto": "Pon tu esperanza en el Señor; cobra ánimo y ármate de valor, ¡pon tu esperanza en el Señor!",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "capitulo": 46,
+    "versiculo": 1,
+    "texto": "Dios es nuestro refugio y nuestra fortaleza, nuestra segura ayuda en momentos de angustia.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   },
 
   {
-    "libro": "Marcos",
-    "capitulo": 6,
-    "versiculo": "49-50",
-    "texto": "Los discípulos, al verlo caminar sobre el agua, creyeron que era un fantasma y se pusieron a gritar, llenos de miedo por lo que veían. Pero él habló enseguida con ellos y les dijo: «¡Cálmense! Soy yo. No tengan miedo».",
-    "emocion": "Valentía/Coraje",
-    "categoria": "Positivos"
+    "libro": "Salmo",
+    "capitulo": 9,
+    "versiculo": 9,
+    "texto": "El Señor es refugio de los oprimidos; es su baluarte en momentos de angustia.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 12,
+    "versiculo": 12,
+    "texto": "Alégrense en la esperanza, muestren paciencia en el sufrimiento, perseveren en la oración.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "2 Corintios",
+    "capitulo": 12,
+    "versiculo": 9,
+    "texto": "Pero él me dijo: «Te basta con mi gracia, pues mi poder se perfecciona en la debilidad». Por lo tanto, gustosamente presumiré más bien de mis debilidades, para que permanezca sobre mí el poder de Cristo.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Proverbios",
+    "capitulo": 16,
+    "versiculo": 3,
+    "texto": "Pon en manos del Señor todas tus obras y tus proyectos se cumplirán.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "1 Juan",
+    "capitulo": 4,
+    "versiculo": 4,
+    "texto": "Ustedes, queridos hijos, son de Dios y han vencido a esos falsos profetas, porque el que está en ustedes es más poderoso que el que está en el mundo.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Josué",
+    "capitulo": 24,
+    "versiculo": 15,
+    "texto": "Pero si les parece mal servir al Señor, elijan ustedes mismos a quiénes van a servir: a los dioses que sirvieron sus antepasados al otro lado del río Éufrates o a los dioses de los amorreos, en cuya tierra ustedes ahora habitan. Por mi parte, mi familia y yo serviremos al Señor».",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 28,
+    "versiculo": 7,
+    "texto": "El Señor es mi fuerza y mi escudo; mi corazón en él confía; de él recibo ayuda. Mi corazón salta de alegría, y con cánticos le daré gracias.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Filipenses",
+    "capitulo": 4,
+    "versiculo": 13,
+    "texto": "Todo lo puedo en Cristo que me fortalece.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "2 Timoteo",
+    "capitulo": 4,
+    "versiculo": 17,
+    "texto": "Pero el Señor estuvo a mi lado y me dio fuerzas para que por medio de mí se llevara a cabo la predicación del mensaje y lo oyeran todos los paganos. Y fui librado de la boca del león.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Mateo",
+    "capitulo": 19,
+    "versiculo": 26,
+    "texto": "Para los hombres es imposible —aclaró Jesús, mirándolos fijamente—, mas para Dios todo es posible.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 118,
+    "versiculo": 24,
+    "texto": "Este es el día que hizo el Señor; regocijémonos y alegrémonos en él.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "1 Pedro",
+    "capitulo": 4,
+    "versiculo": 13,
+    "texto": "Al contrario, alégrense de tener parte en los sufrimientos de Cristo, para que también sea inmensa su alegría cuando se revele la gloria de Cristo.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Juan",
+    "capitulo": 14,
+    "versiculo": 27,
+    "texto": "La paz les dejo; mi paz les doy. Yo no se la doy a ustedes como la da el mundo. No se angustien ni se acobarden.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Salmo",
+    "capitulo": 62,
+    "versiculo": "5-6",
+    "texto": "Solo en Dios halla descanso mi alma; de él viene mi esperanza. Solo él es mi roca y mi salvación; él es mi refugio, ¡no caeré!",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Romanos",
+    "capitulo": 15,
+    "versiculo": 13,
+    "texto": "Que el Dios de la esperanza los llene de toda alegría y paz a ustedes que creen en él, para que rebosen de esperanza por el poder del Espíritu Santo.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Hebreos",
+    "capitulo": 13,
+    "versiculo": 5,
+    "texto": "Manténganse libres del amor al dinero y conténtense con lo que tienen, porque Dios ha dicho: «Nunca los dejaré; jamás los abandonaré».",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
+  },
+
+  {
+    "libro": "Isaías",
+    "capitulo": 26,
+    "versiculo": 3,
+    "texto": "Al de carácter firme lo guardarás en perfecta paz, porque en ti confía.",
+    "emocion": "Frustración",
+    "categoria": "Negativos"
   }
 ]

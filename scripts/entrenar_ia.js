@@ -1,7 +1,7 @@
 /**
- * SCRIPT QUIRÚRGICO: ENTRENAMIENTO DE IA (Versión 2.6)
+ * SCRIPT QUIRÚRGICO: ENTRENAMIENTO DE IA (Versión 2.7)
  * Reconstruye la tabla 'sinonimos'.
- * ¡Nueva emoción agregada: Valentía / Coraje!
+ * ¡Nueva emoción negativa agregada: Frustración!
  */
 
 const sqlite3 = require("sqlite3").verbose();
@@ -11,7 +11,7 @@ const rutaDB = path.join(__dirname, "../biblia.db");
 const db = new sqlite3.Database(rutaDB);
 
 console.log(
-  "Entrenando la Inteligencia Artificial (Cargando diccionario V2.6)...",
+  "Entrenando la Inteligencia Artificial (Cargando diccionario V2.7)...",
 );
 
 db.serialize(() => {
@@ -58,7 +58,6 @@ db.serialize(() => {
         ('esforz', 'Valentía/Coraje', 2, 'raiz'),
         ('valeros', 'Valentía/Coraje', 2, 'raiz'),
         ('anim', 'Valentía/Coraje', 2, 'raiz'),
-        ('valien', 'Valentía/Coraje', 3, 'raiz'),
 
         -- Gratitud
         ('agradec', 'Gratitud', 3, 'raiz'),
@@ -96,6 +95,12 @@ db.serialize(() => {
         ('ira', 'Ira/Enojo', 3, 'exacta'),
         ('enoj', 'Ira/Enojo', 2, 'raiz'),
         ('nervi', 'Ira/Enojo', 1, 'raiz'),
+
+        -- Frustración
+        ('frustr', 'Frustración', 3, 'raiz'),
+        ('impoten', 'Frustración', 3, 'raiz'),
+        ('decepcion', 'Frustración', 2, 'raiz'),
+        ('hart', 'Frustración', 2, 'raiz'),
         
         -- Culpa / Vergüenza
         ('culp', 'Culpa/Remordimiento', 2, 'raiz'),
@@ -116,7 +121,7 @@ db.serialize(() => {
       console.error("Error al poblar diccionario:", err.message);
     } else {
       console.log(
-        "¡Diccionario cargado con éxito! Ahora tu IA reconoce la Valentía y el Coraje.",
+        "¡Diccionario cargado con éxito! Ahora tu IA reconoce la Frustración y la Impotencia.",
       );
     }
 
